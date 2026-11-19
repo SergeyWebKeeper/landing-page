@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sterling &amp; Associates — Attorneys at Law</title>
+<meta name="description" content="Sterling & Associates — trusted legal counsel in corporate, civil litigation, and family law.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">STERLING <span>&amp; ASSOCIATES</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#practice">Practice Areas</a>
+      <a href="#attorneys">Attorneys</a>
+      <a href="#results">Results</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--primary nav__cta">Request consultation</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__content">
+    <div class="rule"></div>
+    <p class="eyebrow">Est. 1987</p>
+    <h1>Trusted Counsel.<br>Proven Results.</h1>
+    <p class="hero__sub">Sterling &amp; Associates provides discreet, rigorous legal representation in corporate law, civil litigation, and family matters.</p>
+    <a href="#contact" class="btn btn--primary btn--lg">Request a consultation</a>
+    <div class="rule"></div>
+  </div>
+</section>
+
+<section class="section" id="practice">
+  <div class="container">
+    <p class="tag center-tag">Practice Areas</p>
+    <h2 class="center">Where we practice</h2>
+    <div class="grid grid--4 reveal">
+      <article class="card">
+        <h3>Corporate Law</h3>
+        <p>Formation, contracts, mergers &amp; acquisitions, compliance.</p>
+      </article>
+      <article class="card">
+        <h3>Civil Litigation</h3>
+        <p>Dispute resolution, negotiation, and courtroom representation.</p>
+      </article>
+      <article class="card">
+        <h3>Family Law</h3>
+        <p>Divorce, custody, and estate matters handled with discretion.</p>
+      </article>
+      <article class="card">
+        <h3>Real Estate Law</h3>
+        <p>Transactions, leases, zoning, and property disputes.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="attorneys">
+  <div class="container">
+    <p class="tag tag--light center-tag">Our Attorneys</p>
+    <h2 class="light center">Counsel you can rely on</h2>
+    <div class="grid grid--3 reveal">
+      <article class="attorney-card">
+        <div class="attorney-avatar">⚖️</div>
+        <h3>Margaret Sterling</h3>
+        <p>Founding Partner &middot; Corporate Law</p>
+      </article>
+      <article class="attorney-card">
+        <div class="attorney-avatar">⚖️</div>
+        <h3>James Whitfield</h3>
+        <p>Senior Partner &middot; Litigation</p>
+      </article>
+      <article class="attorney-card">
+        <div class="attorney-avatar">⚖️</div>
+        <h3>Priya Anand</h3>
+        <p>Partner &middot; Family Law</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="results">
+  <div class="container">
+    <p class="tag center-tag">Track Record</p>
+    <h2 class="center">Results that speak for themselves</h2>
+    <div class="stats-row reveal">
+      <div class="stat"><strong data-count="38">0</strong><span>years in practice</span></div>
+      <div class="stat"><strong data-count="1400">0</strong><span>cases resolved</span></div>
+      <div class="stat"><strong data-count="96">0</strong><span>% client satisfaction</span></div>
+      <div class="stat"><strong data-count="12">0</strong><span>attorneys on staff</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="container">
+    <p class="tag tag--light center-tag">Client Testimonials</p>
+    <h2 class="light center">What our clients say</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"Margaret handled our acquisition with precision and total transparency throughout."</p><cite>— Halloway Group</cite></blockquote>
+      <blockquote class="quote"><p>"James fought for us in a difficult case and secured a result we didn't expect."</p><cite>— R. Danvers</cite></blockquote>
+      <blockquote class="quote"><p>"Compassionate and thorough during an incredibly hard time for our family."</p><cite>— A. Coleman</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="container cta__row">
+    <div>
+      <p class="tag">Get in Touch</p>
+      <h2>Schedule a confidential consultation</h2>
+      <p>All inquiries are handled with strict confidentiality. We respond within one business day.</p>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Full name" required>
+      <input type="email" placeholder="Email address" required>
+      <select required>
+        <option value="" disabled selected>Area of law</option>
+        <option>Corporate</option>
+        <option>Civil litigation</option>
+        <option>Family law</option>
+        <option>Real estate</option>
+      </select>
+      <textarea placeholder="Briefly describe your matter" rows="3" required></textarea>
+      <button type="submit" class="btn btn--primary">Request consultation</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">STERLING <span>&amp; ASSOCIATES</span></a>
+    <p>&copy; 2026 Sterling &amp; Associates. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#practice">Practice</a>
+      <a href="#attorneys">Attorneys</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

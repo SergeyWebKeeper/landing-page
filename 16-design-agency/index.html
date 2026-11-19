@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nova Studio — Brand &amp; Digital Design Agency</title>
+<meta name="description" content="Nova Studio — branding, web design, and digital product design for ambitious companies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mesh" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Nova<span>.</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--primary nav__cta">Start a project</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__content">
+    <p class="eyebrow">Brand &amp; Product Design Studio</p>
+    <h1>We design brands<br>people <span>remember</span></h1>
+    <p class="hero__sub">Nova Studio partners with founders and teams to build identities, websites, and products that don't blend in.</p>
+    <div class="hero__actions">
+      <a href="#contact" class="btn btn--primary btn--lg">Start a project</a>
+      <a href="#work" class="btn btn--ghost btn--lg">See our work</a>
+    </div>
+  </div>
+  <div class="logo-marquee">
+    <div class="logo-marquee__track">
+      <span>NORTHWIND</span><span>◆</span><span>VESSEL</span><span>◆</span><span>ORBITAL</span><span>◆</span>
+      <span>HALCYON</span><span>◆</span><span>PRISMATIC</span><span>◆</span><span>DRIFTLABS</span><span>◆</span>
+      <span>NORTHWIND</span><span>◆</span><span>VESSEL</span><span>◆</span><span>ORBITAL</span><span>◆</span>
+      <span>HALCYON</span><span>◆</span><span>PRISMATIC</span><span>◆</span><span>DRIFTLABS</span><span>◆</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="container">
+    <p class="tag">Selected Work</p>
+    <h2>Recent projects</h2>
+    <div class="bento reveal">
+      <div class="bento-item big b1"><span>Orbital — Brand Identity</span></div>
+      <div class="bento-item b2"><span>Vessel — E-commerce</span></div>
+      <div class="bento-item b3"><span>Halcyon — App Design</span></div>
+      <div class="bento-item wide b4"><span>Northwind — Web Platform</span></div>
+      <div class="bento-item b5"><span>Prismatic — Packaging</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="services">
+  <div class="container">
+    <p class="tag tag--light">Services</p>
+    <h2 class="light">What we do</h2>
+    <div class="grid grid--3 reveal">
+      <article class="card"><h3>Brand Identity</h3><p>Logo, visual system, and brand guidelines that hold up everywhere.</p></article>
+      <article class="card"><h3>Web Design &amp; Dev</h3><p>Fast, beautiful websites built to convert, not just to look nice.</p></article>
+      <article class="card"><h3>Product Design</h3><p>UI/UX for apps and platforms, from wireframe to shipped feature.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="container">
+    <p class="tag">Process</p>
+    <h2>How we work</h2>
+    <div class="steps reveal">
+      <div class="step"><span class="step__num">01</span><h3>Discover</h3><p>Understand your brand, audience, and goals.</p></div>
+      <div class="step"><span class="step__num">02</span><h3>Design</h3><p>Explore directions, refine, and align on the vision.</p></div>
+      <div class="step"><span class="step__num">03</span><h3>Build</h3><p>Turn approved designs into polished, working product.</p></div>
+      <div class="step"><span class="step__num">04</span><h3>Launch</h3><p>Ship it, measure it, and iterate together.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="container">
+    <p class="tag tag--light">Client Feedback</p>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"Nova completely repositioned our brand — we finally look as good as our product actually is."</p><cite>— Orbital Co.</cite></blockquote>
+      <blockquote class="quote"><p>"Fast, sharp, and genuinely collaborative. Our new site doubled conversion in month one."</p><cite>— Vessel</cite></blockquote>
+      <blockquote class="quote"><p>"They pushed back on our first idea and were completely right to. Trust the process."</p><cite>— Halcyon</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="container cta__row">
+    <div>
+      <h2>Have a project in mind?</h2>
+      <p>Tell us a bit about it — we reply to every inquiry within one business day.</p>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Full name" required>
+      <input type="email" placeholder="Email address" required>
+      <select required>
+        <option value="" disabled selected>Project type</option>
+        <option>Brand identity</option>
+        <option>Website design</option>
+        <option>Product design</option>
+        <option>Something else</option>
+      </select>
+      <button type="submit" class="btn btn--primary">Send inquiry</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Nova<span>.</span></a>
+    <p>&copy; 2026 Nova Studio. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

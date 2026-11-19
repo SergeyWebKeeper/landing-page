@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Gentlemen's Cut — Classic Barbershop</title>
+<meta name="description" content="The Gentlemen's Cut — traditional barbering, hot towel shaves, and precision fades.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">The Gentlemen's <span>Cut</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#barbers">Barbers</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <a href="#book" class="btn btn--primary nav__cta">Book a chair</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="pole" aria-hidden="true"></div>
+  <div class="container hero__content">
+    <p class="eyebrow">Est. 1962 &middot; Traditional Barbering</p>
+    <h1>Sharp cuts.<br>Old-school craft.</h1>
+    <p class="hero__sub">Precision fades, straight-razor shaves, and hot towel service — the way a barbershop is supposed to feel.</p>
+    <div class="hero__actions">
+      <a href="#book" class="btn btn--primary btn--lg">Book a chair</a>
+      <a href="#services" class="btn btn--ghost btn--lg">See services</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <p class="tag">Price List</p>
+    <h2>Services</h2>
+    <div class="price-list reveal">
+      <div class="price-row"><h3>Classic Haircut</h3><span class="leader"></span><strong>$32</strong></div>
+      <div class="price-row"><h3>Skin Fade</h3><span class="leader"></span><strong>$38</strong></div>
+      <div class="price-row"><h3>Beard Trim &amp; Shape</h3><span class="leader"></span><strong>$20</strong></div>
+      <div class="price-row"><h3>Hot Towel Shave</h3><span class="leader"></span><strong>$35</strong></div>
+      <div class="price-row"><h3>Cut &amp; Shave Combo</h3><span class="leader"></span><strong>$58</strong></div>
+      <div class="price-row"><h3>Kid's Haircut (12 &amp; under)</h3><span class="leader"></span><strong>$22</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="barbers">
+  <div class="container">
+    <p class="tag tag--gold">The Team</p>
+    <h2 class="light">Meet your barbers</h2>
+    <div class="grid grid--3 reveal">
+      <article class="barber-card">
+        <div class="barber-avatar">✂️</div>
+        <h3>Marcus Reyes</h3>
+        <p>Master Barber &middot; 18 years</p>
+      </article>
+      <article class="barber-card">
+        <div class="barber-avatar">💈</div>
+        <h3>Dominic Wells</h3>
+        <p>Fade Specialist &middot; 9 years</p>
+      </article>
+      <article class="barber-card">
+        <div class="barber-avatar">🪒</div>
+        <h3>Angelo Ricci</h3>
+        <p>Straight Razor Expert &middot; 22 years</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="container">
+    <p class="tag">Gallery</p>
+    <h2>Fresh cuts, every day</h2>
+    <div class="gallery-grid reveal">
+      <div class="g g1"></div><div class="g g2"></div><div class="g g3"></div>
+      <div class="g g4"></div><div class="g g5"></div><div class="g g6"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="reviews">
+  <div class="container">
+    <p class="tag tag--gold">Reviews</p>
+    <h2 class="light">Loyal since day one</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"Been coming here for 6 years. Marcus knows exactly what I want without asking."</p><cite>— Dave R.</cite></blockquote>
+      <blockquote class="quote"><p>"Best hot towel shave in the city. Feels like stepping back in time — in a good way."</p><cite>— Elijah S.</cite></blockquote>
+      <blockquote class="quote"><p>"Took my son for his first haircut here. Patient, kind, and the cut was perfect."</p><cite>— Marcus O.</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="book">
+  <div class="container cta__row">
+    <div>
+      <h2>Reserve your chair</h2>
+      <p>Walk-ins welcome, but booking ahead means no waiting around.</p>
+    </div>
+    <form class="book-form" id="bookForm">
+      <input type="text" placeholder="Full name" required>
+      <input type="tel" placeholder="Phone number" required>
+      <select required>
+        <option value="" disabled selected>Preferred barber</option>
+        <option>Marcus Reyes</option>
+        <option>Dominic Wells</option>
+        <option>Angelo Ricci</option>
+        <option>No preference</option>
+      </select>
+      <button type="submit" class="btn btn--primary">Book now</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">The Gentlemen's <span>Cut</span></a>
+    <p>&copy; 2026 The Gentlemen's Cut. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

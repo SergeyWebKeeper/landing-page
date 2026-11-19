@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volt &amp; Watt Electric — Licensed Electricians</title>
+<meta name="description" content="Volt & Watt Electric — panel upgrades, wiring, EV chargers, and 24/7 emergency electrical service.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">VOLT<span>&amp;WATT</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#request">Get a Quote</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <a href="#request" class="btn btn--primary nav__cta">24/7 Emergency Line</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <svg class="circuit" viewBox="0 0 1200 400" preserveAspectRatio="none" aria-hidden="true">
+    <path class="ctrace t1" d="M0 80 H300 V200 H600 V60 H900 V220 H1200" />
+    <path class="ctrace t2" d="M0 320 H200 V180 H500 V340 H800 V120 H1200" />
+  </svg>
+  <div class="container hero__content">
+    <p class="eyebrow">Licensed &amp; Insured &middot; 24/7 Emergency Service</p>
+    <h1>Powering your home,<br><span>safely</span></h1>
+    <p class="hero__sub">From panel upgrades to EV chargers, Volt &amp; Watt handles residential and commercial electrical work done right the first time.</p>
+    <div class="hero__actions">
+      <a href="#request" class="btn btn--primary btn--lg">Request service</a>
+      <a href="#services" class="btn btn--ghost btn--lg">View services</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <p class="tag">Services</p>
+    <h2>What we handle</h2>
+    <div class="grid grid--3 reveal">
+      <article class="card"><div class="card__icon">⚡</div><h3>Panel Upgrades</h3><p>Modernize outdated electrical panels for safety and capacity.</p></article>
+      <article class="card"><div class="card__icon">🔌</div><h3>Wiring &amp; Rewiring</h3><p>New construction wiring and rewiring for older homes.</p></article>
+      <article class="card"><div class="card__icon">💡</div><h3>Lighting Installation</h3><p>Indoor, outdoor, and smart lighting systems.</p></article>
+      <article class="card"><div class="card__icon">🔋</div><h3>EV Charger Install</h3><p>Level 2 home charging stations, installed to code.</p></article>
+      <article class="card"><div class="card__icon">🏭</div><h3>Generator Install</h3><p>Backup power systems for outages, sized to your home.</p></article>
+      <article class="card"><div class="card__icon">🚨</div><h3>Emergency Service</h3><p>24/7 response for outages, sparking, or electrical hazards.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="why">
+  <div class="container why__row">
+    <div class="reveal">
+      <p class="tag tag--light">Why Volt &amp; Watt</p>
+      <h2 class="light">Certified. Insured. On time.</h2>
+      <ul class="check-list">
+        <li>Master electricians on every job</li>
+        <li>Upfront, flat-rate pricing</li>
+        <li>2-year warranty on all installations</li>
+        <li>Fully stocked trucks — most jobs done in one visit</li>
+      </ul>
+    </div>
+    <div class="badge-grid reveal">
+      <div class="badge">🎓<span>Master Certified</span></div>
+      <div class="badge">🛡️<span>2yr Warranty</span></div>
+      <div class="badge">⭐<span>4.9/5 Rating</span></div>
+      <div class="badge">🚚<span>Same-Day Service</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="request">
+  <div class="container">
+    <p class="tag">Get a Quote</p>
+    <h2>Request electrical service</h2>
+    <form class="request-form reveal" id="requestForm">
+      <div class="form-grid">
+        <input type="text" placeholder="Full name" required>
+        <input type="tel" placeholder="Phone number" required>
+        <select required>
+          <option value="" disabled selected>Service needed</option>
+          <option>Panel upgrade</option>
+          <option>Wiring / rewiring</option>
+          <option>Lighting installation</option>
+          <option>EV charger install</option>
+          <option>Emergency — power out / sparking</option>
+        </select>
+        <input type="text" placeholder="Property address" required>
+      </div>
+      <button type="submit" class="btn btn--primary">Request my quote</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section section--dark" id="reviews">
+  <div class="container">
+    <p class="tag tag--light">Customer Reviews</p>
+    <h2 class="light">Trusted with the wiring behind the walls</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"Panel upgrade done in a single afternoon, clean work, upfront pricing. Exactly what I needed."</p><cite>— Farrah D.</cite></blockquote>
+      <blockquote class="quote"><p>"Came out at 11pm for a sparking outlet, fixed it fast and explained everything calmly."</p><cite>— Owen T.</cite></blockquote>
+      <blockquote class="quote"><p>"EV charger install was seamless — inspected and passed on the first try."</p><cite>— Priya M.</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">VOLT<span>&amp;WATT</span></a>
+    <p>&copy; 2026 Volt &amp; Watt Electric. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#services">Services</a>
+      <a href="#request">Quote</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+:root {
+  --ink: #16181d;
+  --gray: #656b76;
+  --line: #e6e7eb;
+  --bg: #fafafa;
+  --white: #ffffff;
+  --accent: #635bff;
+  --font-head: 'Fraunces', serif;
+  --font-body: 'Inter', sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); color: var(--ink); background: var(--bg); line-height: 1.6; }
+a { text-decoration: none; color: inherit; }
+h1, h2 { font-family: var(--font-head); line-height: 1.15; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+.topbar { border-bottom: 1px solid var(--line); background: var(--white); padding: 18px 0; }
+.topbar__row { display: flex; align-items: center; justify-content: space-between; }
+.brand { font-weight: 700; letter-spacing: -.01em; }
+.count { color: var(--gray); font-size: .85rem; background: var(--bg); padding: 6px 14px; border-radius: 100px; border: 1px solid var(--line); }
+
+.intro { padding: 90px 0 60px; text-align: center; }
+.eyebrow { color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: .08em; font-size: .8rem; margin-bottom: 18px; }
+.intro h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 700; max-width: 760px; margin: 0 auto; }
+.intro h1 em { color: var(--accent); font-style: italic; }
+.intro__sub { color: var(--gray); max-width: 560px; margin: 22px auto 0; font-size: 1.05rem; }
+
+.gallery { padding: 40px 0 100px; }
+.gallery__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+
+.card { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; transition: transform .3s ease, box-shadow .3s ease; }
+.card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(20,20,30,.08); }
+
+.swatch { height: 150px; display: flex; align-items: flex-end; padding: 18px; position: relative; overflow: hidden; }
+.swatch__label { position: relative; z-index: 1; color: #fff; font-weight: 700; font-size: 1rem; text-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.swatch::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,.35) 100%); }
+
+.swatch--taxi { background: linear-gradient(135deg, #FFD500, #0d0d0f 130%); }
+.swatch--restaurant { background: linear-gradient(135deg, #5c1620, #c9a44c 140%); }
+.swatch--finance { background: linear-gradient(135deg, #0b1f3a, #b08d47 140%); }
+.swatch--sport { background: linear-gradient(135deg, #0a0a0a, #ff4e1f 140%); }
+.swatch--dental { background: linear-gradient(135deg, #2fd7a8, #eafcf6 160%); }
+.swatch--photo { background: linear-gradient(135deg, #0e0e0e, #c9a877 160%); }
+.swatch--barber { background: linear-gradient(135deg, #141110, #b6862c 150%); }
+.swatch--law { background: linear-gradient(135deg, #1a1a1a, #6e1423 150%); }
+.swatch--realestate { background: linear-gradient(135deg, #0c0c0d, #d4af6a 150%); }
+.swatch--yoga { background: linear-gradient(135deg, #8a9a7e, #c97a55 150%); }
+.swatch--wedding { background: linear-gradient(135deg, #f0d8d3, #8a4f49 150%); }
+.swatch--auto { background: linear-gradient(135deg, #2b2f33, #f2711f 150%); }
+.swatch--vet { background: linear-gradient(135deg, #5b9bd5, #ffc93c 150%); }
+.swatch--bakery { background: linear-gradient(135deg, #f6b8c4, #6b4a3a 150%); }
+.swatch--cleaning { background: linear-gradient(135deg, #14b8a6, #334155 150%); }
+.swatch--agency { background: linear-gradient(135deg, #7c3aed, #f97316 150%); }
+.swatch--landscaping { background: linear-gradient(135deg, #2f5233, #e8dcc3 150%); }
+.swatch--music { background: linear-gradient(135deg, #5b3a8e, #e0b84f 150%); }
+.swatch--tattoo { background: linear-gradient(135deg, #0a0a0a, #c8102e 150%); }
+.swatch--daycare { background: linear-gradient(135deg, #a685e2, #ffd93d 150%); }
+.swatch--bookstore { background: linear-gradient(135deg, #7a5a3a, #7a2e2e 150%); }
+.swatch--spa { background: linear-gradient(135deg, #c8bfe7, #a9bfa0 150%); }
+.swatch--electrician { background: linear-gradient(135deg, #0d0d10, #e8ff3c 150%); }
+.swatch--plumber { background: linear-gradient(135deg, #1565c0, #0d3358 150%); }
+.swatch--brewery { background: linear-gradient(135deg, #c17817, #1c1410 150%); }
+.swatch--interior { background: linear-gradient(135deg, #e8e0d4, #2b2823 150%); }
+.swatch--driving { background: linear-gradient(135deg, #1c1c1e, #ffd23f 150%); }
+.swatch--grooming { background: linear-gradient(135deg, #c9a8e0, #f4b8d0 150%); }
+.swatch--florist { background: linear-gradient(135deg, #d4a5a5, #9caf88 150%); }
+.swatch--itsupport { background: linear-gradient(135deg, #0a0e0a, #4ade80 150%); }
+
+.card__body { padding: 22px; display: flex; flex-direction: column; gap: 8px; }
+.card__body h2 { font-size: 1.2rem; font-weight: 600; }
+.card__body p { color: var(--gray); font-size: .9rem; }
+.chips { display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap; }
+.chips span { background: var(--bg); border: 1px solid var(--line); border-radius: 100px; padding: 4px 12px; font-size: .76rem; color: var(--gray); }
+
+.footer { border-top: 1px solid var(--line); padding: 30px 0; color: var(--gray); font-size: .88rem; text-align: center; }
+
+@media (max-width: 980px) {
+  .gallery__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .gallery__grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Separate project with its own git history and remote
+# (SergeyWebKeeper/financial-advisor) — not part of this portfolio
+financial-advisor/

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paws &amp; Care Veterinary — Compassionate Pet Health</title>
+<meta name="description" content="Paws & Care Veterinary — wellness exams, vaccinations, surgery, and emergency care for your pets.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="paw paw1">🐾</div>
+<div class="paw paw2">🐾</div>
+<div class="paw paw3">🐾</div>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">🐾 Paws &amp; Care</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#team">Our Vets</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#book">Contact</a>
+    </nav>
+    <a href="#book" class="btn btn--primary nav__cta">Book a visit</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__content">
+    <p class="eyebrow">Trusted Pet Care Since 2005</p>
+    <h1>Because they're<br><span>family too</span></h1>
+    <p class="hero__sub">From routine checkups to emergency care, our team treats every patient with the gentleness they deserve.</p>
+    <div class="hero__actions">
+      <a href="#book" class="btn btn--primary btn--lg">Book an appointment</a>
+      <a href="#services" class="btn btn--ghost btn--lg">Our services</a>
+    </div>
+    <div class="hero__badges">
+      <span>🐶 Dogs</span><span>🐱 Cats</span><span>🐰 Small pets</span><span>🚨 24/7 Emergency</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <p class="tag">Services</p>
+    <h2>Complete pet health care</h2>
+    <div class="grid grid--3 reveal">
+      <article class="card"><div class="card__icon">🩺</div><h3>Wellness Exams</h3><p>Annual checkups to catch issues early and keep pets thriving.</p></article>
+      <article class="card"><div class="card__icon">💉</div><h3>Vaccinations</h3><p>Core and lifestyle vaccines tailored to your pet's needs.</p></article>
+      <article class="card"><div class="card__icon">🏥</div><h3>Surgery</h3><p>From spay/neuter to advanced procedures, in a calm environment.</p></article>
+      <article class="card"><div class="card__icon">🦷</div><h3>Dental Care</h3><p>Cleanings and extractions to protect long-term health.</p></article>
+      <article class="card"><div class="card__icon">🚨</div><h3>Emergency Care</h3><p>Same-day urgent visits when your pet needs help fast.</p></article>
+      <article class="card"><div class="card__icon">✂️</div><h3>Grooming</h3><p>Baths, nail trims, and coat care to keep pets comfortable.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--sky" id="team">
+  <div class="container">
+    <p class="tag tag--ink">Our Team</p>
+    <h2>Meet the vets</h2>
+    <div class="grid grid--3 reveal">
+      <article class="vet-card"><div class="vet-avatar">👩‍⚕️</div><h3>Dr. Lauren Cho</h3><p>Lead Veterinarian &middot; 15 years</p></article>
+      <article class="vet-card"><div class="vet-avatar">👨‍⚕️</div><h3>Dr. Miguel Ortiz</h3><p>Surgery &amp; Orthopedics</p></article>
+      <article class="vet-card"><div class="vet-avatar">👩‍⚕️</div><h3>Dr. Aisha Bello</h3><p>Emergency &amp; Critical Care</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <div class="container">
+    <p class="tag">Happy Pet Parents</p>
+    <h2>What clients are saying</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"They treated our anxious rescue dog with so much patience. She actually likes going now!"</p><cite>— Megan &amp; Biscuit 🐶</cite></blockquote>
+      <blockquote class="quote"><p>"Emergency surgery on a Sunday night — they were calm, fast, and saved our cat's life."</p><cite>— Daniel &amp; Whiskers 🐱</cite></blockquote>
+      <blockquote class="quote"><p>"Transparent pricing and they never push unnecessary treatments. Real trust here."</p><cite>— The Alvarez Family</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="book">
+  <div class="container cta__row">
+    <div>
+      <h2>Let's take care of them</h2>
+      <p>Pick a time and tell us about your pet — we'll confirm within one business day.</p>
+    </div>
+    <form class="book-form" id="bookForm">
+      <input type="text" placeholder="Your name" required>
+      <input type="text" placeholder="Pet's name &amp; species" required>
+      <div class="form-row">
+        <input type="date" required>
+        <select required>
+          <option value="" disabled selected>Reason for visit</option>
+          <option>Wellness exam</option>
+          <option>Vaccination</option>
+          <option>Something's wrong</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn--primary">Request appointment</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">🐾 Paws &amp; Care</a>
+    <p>&copy; 2026 Paws &amp; Care Veterinary. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#services">Services</a>
+      <a href="#team">Our Vets</a>
+      <a href="#book">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

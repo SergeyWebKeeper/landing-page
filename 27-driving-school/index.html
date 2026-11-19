@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GreenLight Driving School — Learn to Drive with Confidence</title>
+<meta name="description" content="GreenLight Driving School — teen and adult driving lessons, defensive driving, and license test prep.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Green<span>Light</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#programs">Programs</a>
+      <a href="#why">Why Us</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <a href="#enroll" class="btn btn--primary nav__cta">Enroll now</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="road">
+    <div class="lane-line"></div>
+  </div>
+  <div class="container hero__content">
+    <p class="eyebrow">State-Certified Instructors</p>
+    <h1>Confidence starts here</h1>
+    <p class="hero__sub">GreenLight teaches new and nervous drivers alike — patient instructors, dual-brake cars, and a genuinely calm learning experience.</p>
+    <div class="hero__actions">
+      <a href="#enroll" class="btn btn--primary btn--lg">Enroll now</a>
+      <a href="#programs" class="btn btn--ghost btn--lg">View programs</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="programs">
+  <div class="container">
+    <p class="tag">Programs</p>
+    <h2>Lessons for every driver</h2>
+    <div class="grid grid--4 reveal">
+      <article class="card"><div class="card__icon">🧑‍🎓</div><h3>Teen Driving</h3><p>State-required hours plus real road confidence.</p></article>
+      <article class="card"><div class="card__icon">🚗</div><h3>Adult Lessons</h3><p>First-time or returning drivers, at your own pace.</p></article>
+      <article class="card"><div class="card__icon">🛡️</div><h3>Defensive Driving</h3><p>Insurance-approved courses for safer, sharper driving.</p></article>
+      <article class="card"><div class="card__icon">📋</div><h3>Test Prep</h3><p>Practice the exact route and skills used in your road test.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="why">
+  <div class="container why__row">
+    <div class="reveal">
+      <p class="tag tag--light">Why GreenLight</p>
+      <h2 class="light">Patient instructors, real results</h2>
+      <ul class="check-list">
+        <li>96% first-attempt pass rate</li>
+        <li>Dual-brake cars for extra safety</li>
+        <li>Flexible scheduling, evenings &amp; weekends</li>
+        <li>Pickup available from home or school</li>
+      </ul>
+    </div>
+    <div class="stat-card reveal">
+      <div class="stat"><strong data-count="96">0</strong><span>% pass rate</span></div>
+      <div class="stat"><strong data-count="15">0</strong><span>years teaching</span></div>
+      <div class="stat"><strong data-count="8000">0</strong><span>students taught</span></div>
+      <div class="stat"><strong data-count="4.9" data-decimal="1">0</strong><span>average rating</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="container">
+    <p class="tag">Pricing</p>
+    <h2>Simple lesson packages</h2>
+    <div class="grid grid--3 reveal">
+      <article class="plan">
+        <h3>Single Lesson</h3>
+        <p class="plan__price">$65<span>/hr</span></p>
+        <ul><li>1-on-1 instruction</li><li>Pickup included</li><li>No commitment</li></ul>
+        <a href="#enroll" class="btn btn--ghost">Choose plan</a>
+      </article>
+      <article class="plan plan--featured">
+        <span class="plan__badge">Most Popular</span>
+        <h3>6-Lesson Package</h3>
+        <p class="plan__price">$340</p>
+        <ul><li>6 hours of instruction</li><li>Progress tracking</li><li>Test-route practice included</li></ul>
+        <a href="#enroll" class="btn btn--primary">Choose plan</a>
+      </article>
+      <article class="plan">
+        <h3>Full License Prep</h3>
+        <p class="plan__price">$620</p>
+        <ul><li>10 hours of instruction</li><li>Mock road test</li><li>Test-day accompaniment</li></ul>
+        <a href="#enroll" class="btn btn--ghost">Choose plan</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="reviews">
+  <div class="container">
+    <p class="tag tag--light">Reviews</p>
+    <h2 class="light">Nervous drivers, confident graduates</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"My daughter was terrified of highway driving. She passed her test on the first try, calm as anything."</p><cite>— Renata K.</cite></blockquote>
+      <blockquote class="quote"><p>"Learned to drive at 34 with zero judgment from my instructor. Genuinely patient the whole way through."</p><cite>— Marcus T.</cite></blockquote>
+      <blockquote class="quote"><p>"The mock test route practice made the real thing feel easy. Worth every cent."</p><cite>— Priya D.</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="enroll">
+  <div class="container cta__row">
+    <div>
+      <h2>Ready to get on the road?</h2>
+      <p>Tell us a bit about the driver and we'll match the right instructor and package.</p>
+    </div>
+    <form class="enroll-form" id="enrollForm">
+      <input type="text" placeholder="Student's name" required>
+      <input type="email" placeholder="Email address" required>
+      <select required>
+        <option value="" disabled selected>Program</option>
+        <option>Teen driving</option>
+        <option>Adult lessons</option>
+        <option>Defensive driving</option>
+        <option>Test prep</option>
+      </select>
+      <button type="submit" class="btn btn--primary">Enroll now</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Green<span>Light</span></a>
+    <p>&copy; 2026 GreenLight Driving School. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#programs">Programs</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

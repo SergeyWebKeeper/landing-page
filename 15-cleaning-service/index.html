@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CrystalClean — Home &amp; Office Cleaning Services</title>
+<meta name="description" content="CrystalClean — insured, background-checked cleaning teams for homes and offices.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Crystal<span>Clean</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <a href="#book" class="btn btn--primary nav__cta">Get a quote</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__row">
+    <div class="hero__text">
+      <p class="eyebrow">Insured &amp; Background-Checked Teams</p>
+      <h1>A spotless home, without lifting a finger</h1>
+      <p class="hero__sub">Book trusted, vetted cleaners in under 60 seconds. Recurring or one-time — your space, our standards.</p>
+      <div class="hero__actions">
+        <a href="#book" class="btn btn--primary btn--lg">Get an instant quote</a>
+        <a href="#services" class="btn btn--ghost btn--lg">Our services</a>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="checklist-card">
+        <div class="check-row"><span class="check">✓</span> Kitchen deep clean</div>
+        <div class="check-row"><span class="check">✓</span> Bathroom sanitized</div>
+        <div class="check-row"><span class="check">✓</span> Floors vacuumed &amp; mopped</div>
+        <div class="check-row"><span class="check">✓</span> Dusting, top to bottom</div>
+        <div class="checklist-card__foot">Every visit, guaranteed.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <p class="tag">Services</p>
+    <h2>Cleaning for every space</h2>
+    <div class="grid grid--3 reveal">
+      <article class="card"><div class="card__icon">🏠</div><h3>Residential Cleaning</h3><p>Regular or one-time cleaning tailored to your home.</p></article>
+      <article class="card"><div class="card__icon">🏢</div><h3>Office &amp; Commercial</h3><p>Flexible scheduling that keeps your workspace spotless.</p></article>
+      <article class="card"><div class="card__icon">✨</div><h3>Deep Cleaning</h3><p>A top-to-bottom reset for move-ins, spring cleaning, or events.</p></article>
+      <article class="card"><div class="card__icon">📦</div><h3>Move-In / Move-Out</h3><p>Leave your old place spotless, arrive at your new one the same way.</p></article>
+      <article class="card"><div class="card__icon">🧺</div><h3>Carpet &amp; Upholstery</h3><p>Deep extraction cleaning that lifts stains and odors.</p></article>
+      <article class="card"><div class="card__icon">🪟</div><h3>Window Cleaning</h3><p>Streak-free interior and exterior window service.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--teal" id="how">
+  <div class="container">
+    <p class="tag tag--light">How It Works</p>
+    <h2 class="light">Booked in minutes</h2>
+    <div class="steps reveal">
+      <div class="step"><span class="step__num">1</span><h3>Choose your service</h3><p>Tell us your space size and what you need cleaned.</p></div>
+      <div class="step"><span class="step__num">2</span><h3>Pick a time</h3><p>Same-day and recurring slots available online.</p></div>
+      <div class="step"><span class="step__num">3</span><h3>We clean</h3><p>A vetted, insured team arrives and gets to work.</p></div>
+      <div class="step"><span class="step__num">4</span><h3>Enjoy it</h3><p>Not satisfied? We'll re-clean it free, guaranteed.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="container">
+    <p class="tag">Instant Pricing</p>
+    <h2>Estimate your clean</h2>
+    <div class="estimator reveal">
+      <div class="estimator__control">
+        <label>Home size: <strong><span id="sizeVal">2</span> bedrooms</strong></label>
+        <input type="range" id="size" min="1" max="6" value="2">
+        <div class="estimator__types">
+          <button class="chip is-active" data-rate="70">Standard</button>
+          <button class="chip" data-rate="110">Deep Clean</button>
+          <button class="chip" data-rate="90">Move-Out</button>
+        </div>
+      </div>
+      <div class="estimator__result">
+        <span>Estimated price</span>
+        <strong id="priceVal">$95</strong>
+        <small>Final quote confirmed after a quick walkthrough</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--teal" id="reviews">
+  <div class="container">
+    <p class="tag tag--light">Reviews</p>
+    <h2 class="light">Trusted by neighbors like you</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"Same team every time, always on schedule, always thorough. Set-it-and-forget-it clean home."</p><cite>— Nora W.</cite></blockquote>
+      <blockquote class="quote"><p>"Move-out clean got our full deposit back. Landlord was seriously impressed."</p><cite>— The Petersons</cite></blockquote>
+      <blockquote class="quote"><p>"Office feels genuinely fresh, not just tidied. Employees have actually commented."</p><cite>— Bright Path Studio</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="book">
+  <div class="container cta__row">
+    <div>
+      <h2>Ready for a spotless space?</h2>
+      <p>Get an instant quote — no obligation, no pushy sales calls.</p>
+    </div>
+    <form class="book-form" id="bookForm">
+      <input type="text" placeholder="Full name" required>
+      <input type="tel" placeholder="Phone number" required>
+      <select required>
+        <option value="" disabled selected>Service needed</option>
+        <option>Residential cleaning</option>
+        <option>Office cleaning</option>
+        <option>Deep cleaning</option>
+        <option>Move-in / move-out</option>
+      </select>
+      <button type="submit" class="btn btn--primary">Get my free quote</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Crystal<span>Clean</span></a>
+    <p>&copy; 2026 CrystalClean. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atelier Home — Interior Design Studio</title>
+<meta name="description" content="Atelier Home — full-service interior design, space planning, and styling.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Public+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Atelier Home</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#work">Portfolio</a>
+      <a href="#process">Process</a>
+      <a href="#consult">Contact</a>
+    </nav>
+    <a href="#consult" class="btn btn--primary nav__cta">Book a consultation</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Full-Service Interior Design</p>
+    <h1>Spaces designed<br>around how you <em>live</em></h1>
+    <p class="hero__sub">Atelier Home creates rooms that feel considered, livable, and unmistakably yours — from a single room refresh to a full home.</p>
+    <div class="hero__actions">
+      <a href="#consult" class="btn btn--primary btn--lg">Book a consultation</a>
+      <a href="#work" class="btn btn--ghost btn--lg">See our portfolio</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="before-after">
+  <div class="container">
+    <p class="tag center-tag">Transformations</p>
+    <h2 class="center">Drag to see the difference</h2>
+    <div class="ba-slider reveal">
+      <div class="ba-before">Before</div>
+      <div class="ba-after" id="baAfter">After</div>
+      <input type="range" min="0" max="100" value="50" id="baRange" class="ba-range" aria-label="Before and after slider">
+      <div class="ba-handle" id="baHandle">↔</div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="services">
+  <div class="container">
+    <p class="tag tag--light">Services</p>
+    <h2 class="light">How we can help</h2>
+    <div class="grid grid--4 reveal">
+      <article class="card"><h3>Full-Service Design</h3><p>Concept to installation, fully managed for you.</p></article>
+      <article class="card"><h3>Space Planning</h3><p>Layouts that make a room finally make sense.</p></article>
+      <article class="card"><h3>E-Design</h3><p>Remote design packages for any budget or city.</p></article>
+      <article class="card"><h3>Styling &amp; Staging</h3><p>The finishing layer that makes a space feel done.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="container">
+    <p class="tag">Portfolio</p>
+    <h2>Recent projects</h2>
+    <div class="gallery-grid reveal">
+      <div class="g g1"><span>Hillside Living Room</span></div>
+      <div class="g g2"><span>Downtown Loft</span></div>
+      <div class="g g3"><span>Coastal Primary Suite</span></div>
+      <div class="g g4"><span>Family Kitchen Refresh</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="process">
+  <div class="container">
+    <p class="tag tag--light">Process</p>
+    <h2 class="light">How we work together</h2>
+    <div class="steps reveal">
+      <div class="step"><span class="step__num">01</span><h3>Discovery</h3><p>A walkthrough of your space, style, and goals.</p></div>
+      <div class="step"><span class="step__num">02</span><h3>Concept</h3><p>Mood boards, layouts, and material selections.</p></div>
+      <div class="step"><span class="step__num">03</span><h3>Sourcing</h3><p>Furniture, decor, and trades coordinated for you.</p></div>
+      <div class="step"><span class="step__num">04</span><h3>Install</h3><p>The final reveal — a space that feels complete.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <p class="tag center-tag">Client Feedback</p>
+    <h2 class="center">What clients say</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"They understood exactly what we wanted before we could even explain it well."</p><cite>— Naomi &amp; Chris</cite></blockquote>
+      <blockquote class="quote"><p>"Our living room finally feels finished. Worth every part of the process."</p><cite>— Daniel R.</cite></blockquote>
+      <blockquote class="quote"><p>"E-design package was perfect for our budget and still felt fully custom."</p><cite>— Priya S.</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="consult">
+  <div class="container cta__row">
+    <div>
+      <h2>Let's design your space</h2>
+      <p>Tell us about your project — we'll follow up to schedule a discovery call.</p>
+    </div>
+    <form class="consult-form" id="consultForm">
+      <input type="text" placeholder="Full name" required>
+      <input type="email" placeholder="Email address" required>
+      <select required>
+        <option value="" disabled selected>Project type</option>
+        <option>Single room</option>
+        <option>Full home</option>
+        <option>E-design</option>
+        <option>Styling only</option>
+      </select>
+      <button type="submit" class="btn btn--primary">Send inquiry</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Atelier Home</a>
+    <p>&copy; 2026 Atelier Home. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#services">Services</a>
+      <a href="#work">Portfolio</a>
+      <a href="#consult">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

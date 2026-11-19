@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fluff &amp; Fold — Pet Grooming Salon</title>
+<meta name="description" content="Fluff & Fold — full-service pet grooming: baths, cuts, nail trims, and de-shedding treatments.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500;600;700&family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bubble bb1"></div>
+<div class="bubble bb2"></div>
+<div class="bubble bb3"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">🛁 Fluff &amp; Fold</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#book">Book</a>
+    </nav>
+    <a href="#book" class="btn btn--primary nav__cta">Book grooming</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__content">
+    <p class="eyebrow">Gentle, Stress-Free Pet Grooming</p>
+    <h1>Pampering for<br>your <span>best friend</span></h1>
+    <p class="hero__sub">From a quick bath to a full breed-standard cut, our groomers treat every pet like their own — patient, gentle, and genuinely fear-free.</p>
+    <div class="hero__actions">
+      <a href="#book" class="btn btn--primary btn--lg">Book an appointment</a>
+      <a href="#services" class="btn btn--ghost btn--lg">Our services</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <p class="tag">Services</p>
+    <h2>Full-service grooming menu</h2>
+    <div class="grid grid--3 reveal">
+      <article class="card"><div class="card__icon">🛁</div><h3>Bath &amp; Brush</h3><p>Shampoo, blow-dry, and brush-out for a fresh, soft coat.</p></article>
+      <article class="card"><div class="card__icon">✂️</div><h3>Full Groom</h3><p>Breed-standard or custom cuts, styled to your preference.</p></article>
+      <article class="card"><div class="card__icon">💅</div><h3>Nail Trim</h3><p>Quick, gentle nail trims — even for nail-shy pets.</p></article>
+      <article class="card"><div class="card__icon">🐾</div><h3>De-Shedding Treatment</h3><p>Reduces shedding significantly for heavy-coated breeds.</p></article>
+      <article class="card"><div class="card__icon">🐶</div><h3>Puppy's First Groom</h3><p>A slow, gentle introduction to the grooming experience.</p></article>
+      <article class="card"><div class="card__icon">🐱</div><h3>Cat Grooming</h3><p>Specialized handling and calming techniques for cats.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--lilac" id="gallery">
+  <div class="container">
+    <p class="tag tag--dark">Transformations</p>
+    <h2>Fresh cuts we're proud of</h2>
+    <div class="photo-grid reveal">
+      <div class="photo p1"><span>Golden Retriever Trim</span></div>
+      <div class="photo p2"><span>Poodle Full Groom</span></div>
+      <div class="photo p3"><span>Persian Cat Groom</span></div>
+      <div class="photo p4"><span>Shih Tzu Puppy Cut</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="container">
+    <p class="tag">Pricing</p>
+    <h2>Priced by size</h2>
+    <div class="grid grid--3 reveal">
+      <article class="plan">
+        <h3>Small (under 20 lbs)</h3>
+        <p class="plan__price">from $45</p>
+        <ul><li>Bath &amp; brush</li><li>Nail trim included</li><li>Ear cleaning</li></ul>
+      </article>
+      <article class="plan plan--featured">
+        <span class="plan__badge">Most Common</span>
+        <h3>Medium (20–50 lbs)</h3>
+        <p class="plan__price">from $65</p>
+        <ul><li>Full groom</li><li>Nail trim &amp; ear cleaning</li><li>De-shedding add-on available</li></ul>
+      </article>
+      <article class="plan">
+        <h3>Large (50+ lbs)</h3>
+        <p class="plan__price">from $85</p>
+        <ul><li>Full groom</li><li>Nail trim &amp; ear cleaning</li><li>Extra time for thick coats</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--lilac">
+  <div class="container">
+    <p class="tag tag--dark center-tag">Reviews</p>
+    <h2 class="center">Happy pets, happy parents</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"My anxious rescue actually relaxes during her appointments now. That says everything."</p><cite>— Jenna &amp; Coco 🐕</cite></blockquote>
+      <blockquote class="quote"><p>"Best poodle cut we've ever gotten, and our old groomer was expensive downtown."</p><cite>— Marcus P.</cite></blockquote>
+      <blockquote class="quote"><p>"They're so patient with my cat, who genuinely hates everyone. Miracle workers."</p><cite>— Teresa L.</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="book">
+  <div class="container cta__row">
+    <div>
+      <h2>Book your pet's spa day</h2>
+      <p>Tell us about your pet and preferred time — we'll confirm shortly.</p>
+    </div>
+    <form class="book-form" id="bookForm">
+      <input type="text" placeholder="Your name" required>
+      <input type="text" placeholder="Pet's name &amp; breed" required>
+      <select required>
+        <option value="" disabled selected>Service needed</option>
+        <option>Bath &amp; brush</option>
+        <option>Full groom</option>
+        <option>Nail trim</option>
+        <option>De-shedding treatment</option>
+      </select>
+      <button type="submit" class="btn btn--primary">Book appointment</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">🛁 Fluff &amp; Fold</a>
+    <p>&copy; 2026 Fluff &amp; Fold. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#book">Book</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

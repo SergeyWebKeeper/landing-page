@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petal &amp; Stem — Florist &amp; Flower Delivery</title>
+<meta name="description" content="Petal & Stem — fresh flower arrangements for everyday moments, weddings, and events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,500;0,600;1,500&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Petal &amp; Stem</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#collections">Collections</a>
+      <a href="#featured">Featured</a>
+      <a href="#delivery">Delivery</a>
+      <a href="#order">Order</a>
+    </nav>
+    <a href="#order" class="btn btn--primary nav__cta">Order flowers</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="bloom" aria-hidden="true">
+    <span class="petal p1"></span><span class="petal p2"></span><span class="petal p3"></span>
+    <span class="petal p4"></span><span class="petal p5"></span><span class="petal p6"></span>
+  </div>
+  <div class="container hero__content">
+    <p class="eyebrow">Fresh Flowers, Delivered With Care</p>
+    <h1>Flowers for<br>every <em>moment</em></h1>
+    <p class="hero__sub">Petal &amp; Stem hand-ties every arrangement the morning it ships — for birthdays, apologies, weddings, and the days that need no reason at all.</p>
+    <div class="hero__actions">
+      <a href="#order" class="btn btn--primary btn--lg">Order flowers</a>
+      <a href="#collections" class="btn btn--ghost btn--lg">Browse collections</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="collections">
+  <div class="container">
+    <p class="tag">Collections</p>
+    <h2>Arrangements for every occasion</h2>
+    <div class="grid grid--4 reveal">
+      <article class="card"><div class="card__icon">💐</div><h3>Everyday Bouquets</h3><p>Fresh, seasonal arrangements for no reason at all.</p></article>
+      <article class="card"><div class="card__icon">💍</div><h3>Weddings &amp; Events</h3><p>Full-service floral design for your big day.</p></article>
+      <article class="card"><div class="card__icon">🕊️</div><h3>Sympathy</h3><p>Thoughtful arrangements delivered with care and speed.</p></article>
+      <article class="card"><div class="card__icon">📦</div><h3>Subscriptions</h3><p>Weekly or monthly flowers delivered on repeat.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--sage" id="featured">
+  <div class="container">
+    <p class="tag tag--light">Featured This Week</p>
+    <h2 class="light">Seasonal favorites</h2>
+    <div class="gallery-grid reveal">
+      <div class="g g1"><span>Garden Rose Bouquet</span></div>
+      <div class="g g2"><span>Wildflower Mix</span></div>
+      <div class="g g3"><span>Dried Botanical Arrangement</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="delivery">
+  <div class="container split">
+    <div class="split__visual"><div class="visual-block">🌸</div></div>
+    <div class="split__text reveal">
+      <p class="tag">Delivery</p>
+      <h2>Same-day, when it matters</h2>
+      <p>Order by 1pm for same-day local delivery. Every stem is sourced fresh and arranged the morning it goes out — never sitting in a cooler for days.</p>
+      <p>Nationwide shipping available for select dried and preserved arrangements.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--sage">
+  <div class="container">
+    <p class="tag tag--light center-tag">Reviews</p>
+    <h2 class="light center">What customers say</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"Ordered same-day for an anniversary I almost forgot. Arrangement was stunning."</p><cite>— Daniel R.</cite></blockquote>
+      <blockquote class="quote"><p>"Wedding flowers were more beautiful in person than the mockups. True artists."</p><cite>— Elena &amp; Marco</cite></blockquote>
+      <blockquote class="quote"><p>"My monthly subscription is the best small thing I do for myself. Always fresh."</p><cite>— Priya N.</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="order">
+  <div class="container cta__row">
+    <div>
+      <h2>Order fresh flowers</h2>
+      <p>Tell us the occasion and we'll help you pick the perfect arrangement.</p>
+    </div>
+    <form class="order-form" id="orderForm">
+      <input type="text" placeholder="Your name" required>
+      <input type="email" placeholder="Email address" required>
+      <select required>
+        <option value="" disabled selected>Occasion</option>
+        <option>Everyday / just because</option>
+        <option>Birthday</option>
+        <option>Wedding / event</option>
+        <option>Sympathy</option>
+      </select>
+      <button type="submit" class="btn btn--primary">Send my inquiry</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Petal &amp; Stem</a>
+    <p>&copy; 2026 Petal &amp; Stem. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#collections">Collections</a>
+      <a href="#featured">Featured</a>
+      <a href="#order">Order</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

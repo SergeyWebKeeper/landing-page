@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SwiftRide — Your City, On Demand</title>
+<meta name="description" content="SwiftRide taxi service — fast, safe, always on time. Book a ride in seconds.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Swift<span>Ride</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#services">Services</a>
+      <a href="#how">How it works</a>
+      <a href="#fleet">Fleet</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <a href="#book" class="btn btn--primary nav__cta">Book a ride</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__route" aria-hidden="true">
+    <svg viewBox="0 0 1200 300" preserveAspectRatio="none">
+      <path id="routePath" d="M -50 250 C 250 250, 300 60, 550 120 S 900 260, 1250 40" />
+    </svg>
+    <div class="route-dot"></div>
+  </div>
+  <div class="container hero__content">
+    <p class="eyebrow">24/7 rides · 40 cities</p>
+    <h1>Your city moves.<br>So do <span>we.</span></h1>
+    <p class="hero__sub">Tap, ride, arrive. SwiftRide gets you where you need to be — fast, safe, and always on time, day or night.</p>
+    <div class="hero__actions">
+      <a href="#book" class="btn btn--primary btn--lg">Book a ride now</a>
+      <a href="#how" class="btn btn--ghost btn--lg">See how it works</a>
+    </div>
+    <div class="hero__stats">
+      <div><strong data-count="2400000">0</strong><span>rides completed</span></div>
+      <div><strong data-count="98">0</strong><span>% on-time rate</span></div>
+      <div><strong data-count="4.9" data-decimal="1">0</strong><span>average rating</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee">
+  <div class="marquee__track">
+    <span>Airport transfers</span><span>•</span><span>24/7 availability</span><span>•</span>
+    <span>Licensed drivers</span><span>•</span><span>Fixed fares</span><span>•</span>
+    <span>In-app tracking</span><span>•</span><span>Cashless payments</span><span>•</span>
+    <span>Airport transfers</span><span>•</span><span>24/7 availability</span><span>•</span>
+    <span>Licensed drivers</span><span>•</span><span>Fixed fares</span><span>•</span>
+    <span>In-app tracking</span><span>•</span><span>Cashless payments</span><span>•</span>
+  </div>
+</div>
+
+<section class="section" id="services">
+  <div class="container">
+    <p class="tag">Services</p>
+    <h2>Pick your ride</h2>
+    <div class="grid grid--4 reveal">
+      <article class="card">
+        <div class="card__icon">🚕</div>
+        <h3>Standard</h3>
+        <p>Affordable everyday rides across town, matched in under 3 minutes.</p>
+      </article>
+      <article class="card">
+        <div class="card__icon">🚙</div>
+        <h3>XL</h3>
+        <p>Extra room for groups and luggage — up to 6 passengers.</p>
+      </article>
+      <article class="card">
+        <div class="card__icon">✨</div>
+        <h3>Premium</h3>
+        <p>Top-rated drivers, newer vehicles, a quieter, smoother ride.</p>
+      </article>
+      <article class="card">
+        <div class="card__icon">🛫</div>
+        <h3>Airport</h3>
+        <p>Flat-rate airport transfers with flight tracking, no surprises.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="how">
+  <div class="container">
+    <p class="tag tag--light">How it works</p>
+    <h2 class="light">Three taps to a ride</h2>
+    <div class="steps reveal">
+      <div class="step">
+        <span class="step__num">01</span>
+        <h3>Set your destination</h3>
+        <p>Drop a pin or type an address — we find the fastest route instantly.</p>
+      </div>
+      <div class="step">
+        <span class="step__num">02</span>
+        <h3>Get matched</h3>
+        <p>The nearest licensed driver accepts your ride in seconds.</p>
+      </div>
+      <div class="step">
+        <span class="step__num">03</span>
+        <h3>Track & ride</h3>
+        <p>Watch your driver arrive in real time, then sit back and relax.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="fleet">
+  <div class="container">
+    <p class="tag">Our fleet</p>
+    <h2>A ride for every trip</h2>
+    <div class="fleet-grid reveal">
+      <div class="fleet-card"><div class="fleet-emoji">🚗</div><h3>Sedan</h3><p>1–4 passengers</p></div>
+      <div class="fleet-card"><div class="fleet-emoji">🚐</div><h3>Van</h3><p>5–8 passengers</p></div>
+      <div class="fleet-card"><div class="fleet-emoji">🏎️</div><h3>Executive</h3><p>Premium comfort</p></div>
+      <div class="fleet-card"><div class="fleet-emoji">♿</div><h3>Accessible</h3><p>Wheelchair-ready</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <div class="container">
+    <p class="tag">Fare estimate</p>
+    <h2>Know your fare before you go</h2>
+    <div class="estimator reveal">
+      <div class="estimator__control">
+        <label for="distance">Trip distance: <strong><span id="distanceVal">8</span> km</strong></label>
+        <input type="range" id="distance" min="1" max="40" value="8">
+        <div class="estimator__types">
+          <button class="chip is-active" data-rate="1.2">Standard</button>
+          <button class="chip" data-rate="1.6">XL</button>
+          <button class="chip" data-rate="2.1">Premium</button>
+        </div>
+      </div>
+      <div class="estimator__result">
+        <span>Estimated fare</span>
+        <strong id="fareVal">$9.60</strong>
+        <small>Base fare + distance, no surge on quiet routes</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="reviews">
+  <div class="container">
+    <p class="tag tag--light">Reviews</p>
+    <h2 class="light">Riders love SwiftRide</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote">
+        <p>"Booked at 2am after a flight delay — driver was outside in 4 minutes. Unreal."</p>
+        <cite>— Daniela M.</cite>
+      </blockquote>
+      <blockquote class="quote">
+        <p>"Fixed pricing means no more staring at a meter anxiously. Love the estimator."</p>
+        <cite>— Marcus T.</cite>
+      </blockquote>
+      <blockquote class="quote">
+        <p>"Clean cars, polite drivers, and the app just works. My daily commute now."</p>
+        <cite>— Priya K.</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="book">
+  <div class="container cta__row">
+    <div>
+      <h2>Ready to move?</h2>
+      <p>Download the app or book instantly from your browser — your driver is closer than you think.</p>
+    </div>
+    <form class="book-form" id="bookForm">
+      <input type="text" placeholder="Pickup location" required>
+      <input type="text" placeholder="Destination" required>
+      <button type="submit" class="btn btn--primary">Find my ride</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Wire this form up for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Swift<span>Ride</span></a>
+    <p>&copy; 2026 SwiftRide. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

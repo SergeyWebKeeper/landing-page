@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Crumb Bakery &amp; Cafe</title>
+<meta name="description" content="Sweet Crumb Bakery — fresh pastries, custom cakes, and coffee baked daily with love.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Sweet Crumb</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#specials">Specials</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#visit" class="btn btn--primary nav__cta">Order online</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__content">
+    <p class="eyebrow">Baked fresh, every single morning</p>
+    <h1>Life is short.<br>Eat the <span>pastry.</span></h1>
+    <p class="hero__sub">Sweet Crumb bakes croissants, cakes, and coffee from scratch daily — using butter, not shortcuts.</p>
+    <div class="hero__actions">
+      <a href="#menu" class="btn btn--primary btn--lg">See the menu</a>
+      <a href="#visit" class="btn btn--ghost btn--lg">Visit us</a>
+    </div>
+  </div>
+  <div class="scallop"></div>
+</section>
+
+<section class="section" id="menu">
+  <div class="container">
+    <p class="tag">Fan Favorites</p>
+    <h2>Straight from the oven</h2>
+    <div class="polaroid-grid reveal">
+      <div class="polaroid rot1"><div class="polaroid__img pi1"></div><span>Butter Croissant</span></div>
+      <div class="polaroid rot2"><div class="polaroid__img pi2"></div><span>Strawberry Tart</span></div>
+      <div class="polaroid rot3"><div class="polaroid__img pi3"></div><span>Cinnamon Roll</span></div>
+      <div class="polaroid rot4"><div class="polaroid__img pi4"></div><span>Sourdough Loaf</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--pink" id="story">
+  <div class="container split">
+    <div class="split__visual"><div class="visual-block">🥐</div></div>
+    <div class="split__text reveal">
+      <p class="tag">Our Story</p>
+      <h2>From one home oven<br>to your morning table</h2>
+      <p>Sweet Crumb started in a tiny apartment kitchen, selling croissants to neighbors on weekends. Word spread, and eight years later we're still doing it the same way — small batches, real butter, and zero shortcuts.</p>
+      <p>Everything is baked before sunrise so it's fresh the moment we open.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="specials">
+  <div class="container">
+    <p class="tag">This Week's Specials</p>
+    <h2>Limited-batch treats</h2>
+    <div class="specials-board reveal">
+      <div class="special-row"><h3>Matcha Cream Bun</h3><span>Tue–Thu only</span></div>
+      <div class="special-row"><h3>Pumpkin Spice Muffin</h3><span>While supplies last</span></div>
+      <div class="special-row"><h3>Custom Birthday Cakes</h3><span>48hr advance order</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--pink">
+  <div class="container">
+    <p class="tag">Sweet Words</p>
+    <h2>What regulars say</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"The croissants ruined every other bakery for me. Worth the early alarm."</p><cite>— Talia R.</cite></blockquote>
+      <blockquote class="quote"><p>"Ordered a birthday cake last minute and it was somehow still perfect."</p><cite>— Jonas M.</cite></blockquote>
+      <blockquote class="quote"><p>"My kids ask for 'the cinnamon place' every single weekend now."</p><cite>— The Nguyen Family</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="visit">
+  <div class="container cta__row">
+    <div>
+      <h2>Come say hi</h2>
+      <p>Open daily from 6:30am. Pre-order online for pickup, or just stop by — there's always something warm.</p>
+      <ul class="info-list">
+        <li>📍 42 Maple Street</li>
+        <li>🕕 Mon–Sun, 6:30am – 4:00pm</li>
+      </ul>
+    </div>
+    <form class="visit-form" id="visitForm">
+      <input type="text" placeholder="Your name" required>
+      <input type="email" placeholder="Email for order updates" required>
+      <button type="submit" class="btn btn--primary">Join the crumb list</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Sweet Crumb</a>
+    <p>&copy; 2026 Sweet Crumb Bakery. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#menu">Menu</a>
+      <a href="#specials">Specials</a>
+      <a href="#visit">Visit</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

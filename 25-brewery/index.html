@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ironclad Brewing Co. — Craft Beer, Brewed with Grit</title>
+<meta name="description" content="Ironclad Brewing Co. — small-batch craft beer and a taproom worth visiting.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">IRONCLAD</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#beers">Our Beers</a>
+      <a href="#process">Process</a>
+      <a href="#taproom">Taproom</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#visit" class="btn btn--primary nav__cta">Visit the taproom</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="bubbles" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <div class="container hero__content">
+    <p class="eyebrow">Small-Batch Craft Brewery &middot; Est. 2014</p>
+    <h1>Brewed with grit,<br>poured with pride</h1>
+    <p class="hero__sub">Ironclad brews small-batch ales and lagers the honest way — real ingredients, no shortcuts, tested on our own taproom crowd first.</p>
+    <div class="hero__actions">
+      <a href="#visit" class="btn btn--primary btn--lg">Visit the taproom</a>
+      <a href="#beers" class="btn btn--ghost btn--lg">See our beers</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="beers">
+  <div class="container">
+    <p class="tag">On Tap</p>
+    <h2>Our lineup</h2>
+    <div class="grid grid--4 reveal">
+      <article class="beer-card"><div class="beer-glass">🍺</div><h3>Ironclad IPA</h3><p>6.8% ABV &middot; Citrus &amp; pine forward</p></article>
+      <article class="beer-card"><div class="beer-glass">🍻</div><h3>Foundry Stout</h3><p>7.2% ABV &middot; Coffee &amp; dark chocolate</p></article>
+      <article class="beer-card"><div class="beer-glass">🍺</div><h3>Rivet Pilsner</h3><p>4.9% ABV &middot; Crisp &amp; clean</p></article>
+      <article class="beer-card"><div class="beer-glass">🍻</div><h3>Seasonal Rotation</h3><p>Varies &middot; Always something new on tap</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="process">
+  <div class="container">
+    <p class="tag tag--light">Our Process</p>
+    <h2 class="light">Brewed the honest way</h2>
+    <div class="steps reveal">
+      <div class="step"><span class="step__num">1</span><h3>Mash</h3><p>Malted grain steeped to extract fermentable sugars.</p></div>
+      <div class="step"><span class="step__num">2</span><h3>Boil</h3><p>Hops added for bitterness, flavor, and aroma.</p></div>
+      <div class="step"><span class="step__num">3</span><h3>Ferment</h3><p>Weeks of patient fermentation in steel tanks.</p></div>
+      <div class="step"><span class="step__num">4</span><h3>Pour</h3><p>Served fresh, right here in our taproom.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="taproom">
+  <div class="container split">
+    <div class="split__visual"><div class="visual-block">🏭</div></div>
+    <div class="split__text reveal">
+      <p class="tag">The Taproom</p>
+      <h2>Pull up a stool</h2>
+      <p>Our taproom sits right next to the brewhouse — you can watch the next batch being made while you drink the last one. Food trucks rotate weekly, and the dog-friendly patio stays open late.</p>
+      <p>Flights, growlers, and crowlers to go, always available.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark">
+  <div class="container">
+    <p class="tag tag--light">What People Say</p>
+    <h2 class="light">Local favorite, for good reason</h2>
+    <div class="grid grid--3 reveal">
+      <blockquote class="quote"><p>"The IPA is the best in the city, no contest. Taproom vibe is unbeatable too."</p><cite>— Derek H.</cite></blockquote>
+      <blockquote class="quote"><p>"Seasonal rotation keeps us coming back every single month. Never a bad pour."</p><cite>— Nadia F.</cite></blockquote>
+      <blockquote class="quote"><p>"Brought a growler home from vacation and now it's a monthly Ironclad run."</p><cite>— The Osei Family</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="visit">
+  <div class="container cta__row">
+    <div>
+      <h2>Come pull up a stool</h2>
+      <p>Open Wed–Sun. Join our mailing list for new release announcements.</p>
+      <ul class="info-list">
+        <li>📍 88 Foundry Row</li>
+        <li>🕔 Wed–Sun, 4:00pm – 11:00pm</li>
+      </ul>
+    </div>
+    <form class="visit-form" id="visitForm">
+      <input type="text" placeholder="Your name" required>
+      <input type="email" placeholder="Email address" required>
+      <button type="submit" class="btn btn--primary">Join the mailing list</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">IRONCLAD</a>
+    <p>&copy; 2026 Ironclad Brewing Co. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#beers">Beers</a>
+      <a href="#taproom">Taproom</a>
+      <a href="#visit">Visit</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

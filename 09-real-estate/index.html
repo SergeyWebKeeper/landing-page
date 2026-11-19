@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prestige Properties — Luxury Real Estate</title>
+<meta name="description" content="Prestige Properties — curated luxury homes and expert representation for discerning buyers and sellers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Prestige<span>Properties</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#listings">Listings</a>
+      <a href="#why">Why Us</a>
+      <a href="#agents">Agents</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--primary nav__cta">Book a viewing</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__content">
+    <p class="eyebrow">Curated Luxury Real Estate</p>
+    <h1>Find a home that<br>feels like <em>arrival</em></h1>
+    <p class="hero__sub">Prestige Properties represents the finest homes in the city — with the discretion and expertise a significant purchase deserves.</p>
+
+    <div class="search-card glass">
+      <div class="search-field">
+        <label>Location</label>
+        <input type="text" placeholder="City or neighborhood">
+      </div>
+      <div class="search-field">
+        <label>Property type</label>
+        <select>
+          <option>Any type</option>
+          <option>Penthouse</option>
+          <option>Villa</option>
+          <option>Townhouse</option>
+        </select>
+      </div>
+      <div class="search-field">
+        <label>Max price</label>
+        <select>
+          <option>Any price</option>
+          <option>$1M</option>
+          <option>$3M</option>
+          <option>$5M+</option>
+        </select>
+      </div>
+      <button class="btn btn--primary search-btn">Search</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="listings">
+  <div class="container">
+    <p class="tag">Featured Listings</p>
+    <h2>Homes worth arriving to</h2>
+    <div class="grid grid--3 reveal">
+      <article class="listing glass">
+        <div class="listing__img l1"></div>
+        <div class="listing__body">
+          <span class="price">$4.2M</span>
+          <h3>Skyline Penthouse</h3>
+          <p>4 bd &middot; 5 ba &middot; 3,800 sqft</p>
+        </div>
+      </article>
+      <article class="listing glass">
+        <div class="listing__img l2"></div>
+        <div class="listing__body">
+          <span class="price">$2.8M</span>
+          <h3>Modern Hillside Villa</h3>
+          <p>5 bd &middot; 4 ba &middot; 4,600 sqft</p>
+        </div>
+      </article>
+      <article class="listing glass">
+        <div class="listing__img l3"></div>
+        <div class="listing__body">
+          <span class="price">$1.6M</span>
+          <h3>Historic Townhouse</h3>
+          <p>3 bd &middot; 3 ba &middot; 2,400 sqft</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="why">
+  <div class="container why__row">
+    <div class="reveal">
+      <p class="tag tag--light">Why Prestige</p>
+      <h2 class="light">Representation, not just a listing</h2>
+      <ul class="check-list">
+        <li>Off-market access to exclusive properties</li>
+        <li>Private, discreet showings on your schedule</li>
+        <li>Full negotiation and closing support</li>
+        <li>Trusted network of inspectors &amp; lenders</li>
+      </ul>
+    </div>
+    <div class="stat-glass glass reveal">
+      <div class="stat"><strong data-count="480">0</strong><span>homes sold</span></div>
+      <div class="stat"><strong data-count="1.8" data-decimal="1">0</strong><span>$B in sales</span></div>
+      <div class="stat"><strong data-count="22">0</strong><span>years experience</span></div>
+      <div class="stat"><strong data-count="98">0</strong><span>% client satisfaction</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="agents">
+  <div class="container">
+    <p class="tag">Meet the Team</p>
+    <h2>Your agents</h2>
+    <div class="grid grid--3 reveal">
+      <article class="agent-card glass">
+        <div class="agent-avatar">🏙️</div>
+        <h3>Isabelle Grant</h3>
+        <p>Founding Agent &middot; Luxury Homes</p>
+      </article>
+      <article class="agent-card glass">
+        <div class="agent-avatar">🏡</div>
+        <h3>Nathaniel Cross</h3>
+        <p>Senior Agent &middot; Waterfront Estates</p>
+      </article>
+      <article class="agent-card glass">
+        <div class="agent-avatar">🏢</div>
+        <h3>Sophia Lin</h3>
+        <p>Agent &middot; Urban Penthouses</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="container cta__row">
+    <div>
+      <p class="tag tag--light">Get Started</p>
+      <h2 class="light">Book a private viewing</h2>
+      <p>Tell us what you're looking for — an agent will follow up within one business day.</p>
+    </div>
+    <form class="contact-form glass" id="contactForm">
+      <input type="text" placeholder="Full name" required>
+      <input type="email" placeholder="Email address" required>
+      <input type="tel" placeholder="Phone number">
+      <textarea placeholder="What are you looking for?" rows="3"></textarea>
+      <button type="submit" class="btn btn--primary">Request viewing</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Prestige<span>Properties</span></a>
+    <p>&copy; 2026 Prestige Properties. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#listings">Listings</a>
+      <a href="#agents">Agents</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bella Vista — Fine Italian Dining</title>
+<meta name="description" content="Bella Vista restaurant — handmade pasta, seasonal ingredients, an unforgettable evening.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__row">
+    <a href="#" class="logo">Bella Vista</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <a href="#reserve" class="btn btn--gold">Reserve a table</a>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div class="hero__bg" id="heroBg"></div>
+  <div class="hero__overlay"></div>
+  <div class="container hero__content">
+    <p class="eyebrow">Est. 1998 · Downtown</p>
+    <h1>An evening<br>worth <em>savoring</em></h1>
+    <p class="hero__sub">Handmade pasta, wood-fired classics, and a wine list curated for slow, unforgettable dinners.</p>
+    <div class="hero__actions">
+      <a href="#reserve" class="btn btn--gold btn--lg">Reserve a table</a>
+      <a href="#menu" class="btn btn--outline btn--lg">View the menu</a>
+    </div>
+  </div>
+  <div class="scroll-cue">Scroll</div>
+</section>
+
+<section class="section" id="story">
+  <div class="container split">
+    <div class="split__visual">
+      <div class="visual-block"></div>
+    </div>
+    <div class="split__text reveal">
+      <p class="tag">Our Story</p>
+      <h2>Rooted in tradition,<br>plated with care</h2>
+      <p>Bella Vista began as a family kitchen in Turin and grew into a table where old-world recipes meet modern technique. Every dish is made in-house daily — from stretching mozzarella to rolling tagliatelle by hand.</p>
+      <p>Our chefs source from local farms each morning, so the menu shifts gently with the seasons while the soul of the food never changes.</p>
+      <div class="story-stats">
+        <div><strong>27</strong><span>years serving the city</span></div>
+        <div><strong>100%</strong><span>house-made pasta</span></div>
+        <div><strong>4.9</strong><span>average rating</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="menu">
+  <div class="container">
+    <p class="tag tag--gold">Menu</p>
+    <h2 class="light center">A taste of the evening</h2>
+    <div class="tabs">
+      <button class="tab is-active" data-tab="starters">Starters</button>
+      <button class="tab" data-tab="mains">Mains</button>
+      <button class="tab" data-tab="desserts">Desserts</button>
+    </div>
+    <div class="menu-panel is-active" data-panel="starters">
+      <div class="menu-item"><div><h3>Burrata al Tartufo</h3><p>Creamy burrata, black truffle, toasted focaccia</p></div><span>$18</span></div>
+      <div class="menu-item"><div><h3>Carpaccio di Manzo</h3><p>Thin-sliced beef, arugula, aged parmesan</p></div><span>$21</span></div>
+      <div class="menu-item"><div><h3>Zuppa del Giorno</h3><p>Chef's daily soup, seasonal vegetables</p></div><span>$14</span></div>
+    </div>
+    <div class="menu-panel" data-panel="mains">
+      <div class="menu-item"><div><h3>Tagliatelle al Ragù</h3><p>Slow-braised beef ragù, hand-rolled pasta</p></div><span>$27</span></div>
+      <div class="menu-item"><div><h3>Branzino al Forno</h3><p>Wood-fired sea bass, lemon, capers</p></div><span>$34</span></div>
+      <div class="menu-item"><div><h3>Risotto ai Funghi</h3><p>Wild mushroom risotto, truffle oil</p></div><span>$25</span></div>
+    </div>
+    <div class="menu-panel" data-panel="desserts">
+      <div class="menu-item"><div><h3>Tiramisù della Casa</h3><p>Espresso-soaked, mascarpone cream</p></div><span>$12</span></div>
+      <div class="menu-item"><div><h3>Panna Cotta</h3><p>Vanilla bean, seasonal berry compote</p></div><span>$11</span></div>
+      <div class="menu-item"><div><h3>Affogato</h3><p>Vanilla gelato, hot espresso, amaretti</p></div><span>$10</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="container">
+    <p class="tag">Gallery</p>
+    <h2>A glimpse inside</h2>
+    <div class="gallery-grid reveal">
+      <div class="g g1"></div>
+      <div class="g g2"></div>
+      <div class="g g3"></div>
+      <div class="g g4"></div>
+      <div class="g g5"></div>
+      <div class="g g6"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="reviews">
+  <div class="container">
+    <p class="tag tag--gold center-tag">Reviews</p>
+    <h2 class="light center">What guests are saying</h2>
+    <div class="carousel" id="carousel">
+      <blockquote class="testimonial is-active">
+        <p>"The tagliatelle al ragù is worth the trip alone. Warm service, unforgettable evening."</p>
+        <cite>— Elena R.</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>"Felt like dining in a small trattoria in Tuscany. Every course was a surprise."</p>
+        <cite>— James O.</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>"Our anniversary dinner here has become a yearly tradition. Simply the best."</p>
+        <cite>— Sofia & Marco</cite>
+      </blockquote>
+    </div>
+    <div class="carousel-dots" id="carouselDots"></div>
+  </div>
+</section>
+
+<section class="section" id="reserve">
+  <div class="container split">
+    <div class="reveal">
+      <p class="tag">Reserve</p>
+      <h2>Book your table</h2>
+      <p>Reservations recommended, especially Thursday through Saturday evenings. Walk-ins welcome at the bar.</p>
+      <ul class="info-list">
+        <li>📍 128 Vine Street, Downtown</li>
+        <li>🕕 Tue–Sun, 5:00pm – 11:00pm</li>
+        <li>☎️ (555) 019-2244</li>
+      </ul>
+    </div>
+    <form class="reserve-form" id="reserveForm">
+      <input type="text" placeholder="Full name" required>
+      <div class="form-row">
+        <input type="date" required>
+        <input type="time" required>
+      </div>
+      <input type="number" placeholder="Guests" min="1" max="20" required>
+      <button type="submit" class="btn btn--gold">Confirm reservation</button>
+      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__row">
+    <a href="#" class="logo">Bella Vista</a>
+    <p>&copy; 2026 Bella Vista. Template for demonstration purposes.</p>
+    <div class="footer__links">
+      <a href="#menu">Menu</a>
+      <a href="#reserve">Reserve</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
