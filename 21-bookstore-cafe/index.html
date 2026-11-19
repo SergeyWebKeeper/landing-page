@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chapter &amp; Verse — Bookshop &amp; Cafe</title>
+<title data-i18n="title">Chapter &amp; Verse — Bookshop &amp; Cafe</title>
 <meta name="description" content="Chapter & Verse — an independent bookshop and cafe with new arrivals, staff picks, and book club nights.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;0,600;1,500&family=Literata:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;0,600;1,500&family=Literata:wght@400;500;600&family=Heebo:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
@@ -15,12 +15,13 @@
   <div class="container nav__row">
     <a href="#" class="logo">Chapter &amp; Verse</a>
     <nav class="nav__links" id="navLinks">
-      <a href="#books">New Arrivals</a>
-      <a href="#cafe">Cafe</a>
-      <a href="#events">Events</a>
-      <a href="#visit">Visit</a>
+      <a data-i18n="k1" href="#books">New Arrivals</a>
+      <a data-i18n="k2" href="#cafe">Cafe</a>
+      <a data-i18n="k3" href="#events">Events</a>
+      <a data-i18n="k4" href="#visit">Visit</a>
     </nav>
-    <a href="#visit" class="btn btn--primary nav__cta">Visit us</a>
+    <a data-i18n="k5" href="#visit" class="btn btn--primary nav__cta">Visit us</a>
+    <button type="button" class="lang-switch" id="langSwitch" aria-label="Switch language">עברית</button>
     <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -28,12 +29,12 @@
 <section class="hero">
   <div class="container hero__row">
     <div class="hero__text">
-      <p class="eyebrow">Independent Bookshop &amp; Cafe &middot; Since 2009</p>
-      <h1>Get lost<br>between<br>the <em>pages</em></h1>
-      <p class="hero__sub">Curated new and used books, a slow cup of coffee, and a community of people who read for the love of it.</p>
+      <p data-i18n="k6" class="eyebrow">Independent Bookshop &amp; Cafe &middot; Since 2009</p>
+      <h1 data-i18n="k7">Get lost<br>between<br>the <em>pages</em></h1>
+      <p data-i18n="k8" class="hero__sub">Curated new and used books, a slow cup of coffee, and a community of people who read for the love of it.</p>
       <div class="hero__actions">
-        <a href="#events" class="btn btn--primary btn--lg">See upcoming events</a>
-        <a href="#books" class="btn btn--ghost btn--lg">Browse staff picks</a>
+        <a data-i18n="k9" href="#events" class="btn btn--primary btn--lg">See upcoming events</a>
+        <a data-i18n="k10" href="#books" class="btn btn--ghost btn--lg">Browse staff picks</a>
       </div>
     </div>
     <div class="spines" aria-hidden="true">
@@ -46,31 +47,31 @@
 
 <section class="section" id="books">
   <div class="container">
-    <p class="tag">Staff Picks</p>
-    <h2>What we're reading now</h2>
+    <p data-i18n="k11" class="tag">Staff Picks</p>
+    <h2 data-i18n="k12">What we're reading now</h2>
     <div class="flip-grid reveal">
       <div class="flip-card">
         <div class="flip-card__inner">
-          <div class="flip-card__front fc1"><span>Fiction</span></div>
-          <div class="flip-card__back"><h3>The Wandering Hour</h3><p>"A quietly devastating novel — read it in one sitting." — Maya, staff</p></div>
+          <div data-i18n="k13" class="flip-card__front fc1"><span>Fiction</span></div>
+          <div class="flip-card__back"><h3 data-i18n="k14">The Wandering Hour</h3><p data-i18n="k15">"A quietly devastating novel — read it in one sitting." — Maya, staff</p></div>
         </div>
       </div>
       <div class="flip-card">
         <div class="flip-card__inner">
-          <div class="flip-card__front fc2"><span>Nonfiction</span></div>
-          <div class="flip-card__back"><h3>Notes on a Slow Life</h3><p>"Changed how I think about my mornings." — Theo, staff</p></div>
+          <div data-i18n="k16" class="flip-card__front fc2"><span>Nonfiction</span></div>
+          <div class="flip-card__back"><h3 data-i18n="k17">Notes on a Slow Life</h3><p data-i18n="k18">"Changed how I think about my mornings." — Theo, staff</p></div>
         </div>
       </div>
       <div class="flip-card">
         <div class="flip-card__inner">
-          <div class="flip-card__front fc3"><span>Poetry</span></div>
-          <div class="flip-card__back"><h3>Small Weather</h3><p>"I've bought this for six different friends now." — Ruth, staff</p></div>
+          <div data-i18n="k19" class="flip-card__front fc3"><span>Poetry</span></div>
+          <div class="flip-card__back"><h3 data-i18n="k20">Small Weather</h3><p data-i18n="k21">"I've bought this for six different friends now." — Ruth, staff</p></div>
         </div>
       </div>
       <div class="flip-card">
         <div class="flip-card__inner">
-          <div class="flip-card__front fc4"><span>Mystery</span></div>
-          <div class="flip-card__back"><h3>The Last Tenant</h3><p>"Guessed wrong until the very last page." — Sam, staff</p></div>
+          <div data-i18n="k22" class="flip-card__front fc4"><span>Mystery</span></div>
+          <div class="flip-card__back"><h3 data-i18n="k23">The Last Tenant</h3><p data-i18n="k24">"Guessed wrong until the very last page." — Sam, staff</p></div>
         </div>
       </div>
     </div>
@@ -81,34 +82,34 @@
   <div class="container split">
     <div class="split__visual"><div class="visual-block">☕</div></div>
     <div class="split__text reveal">
-      <p class="tag tag--light">The Cafe</p>
-      <h2 class="light">Coffee, tucked between the shelves</h2>
-      <p>Our cafe serves slow-drip coffee, tea, and pastries baked daily — meant to be enjoyed at a well-worn table with a book you haven't finished yet.</p>
-      <p>Free wifi, quiet corners, and refills that don't rush you out the door.</p>
+      <p data-i18n="k25" class="tag tag--light">The Cafe</p>
+      <h2 data-i18n="k26" class="light">Coffee, tucked between the shelves</h2>
+      <p data-i18n="k27">Our cafe serves slow-drip coffee, tea, and pastries baked daily — meant to be enjoyed at a well-worn table with a book you haven't finished yet.</p>
+      <p data-i18n="k28">Free wifi, quiet corners, and refills that don't rush you out the door.</p>
     </div>
   </div>
 </section>
 
 <section class="section" id="events">
   <div class="container">
-    <p class="tag">Events</p>
-    <h2>Book clubs &amp; readings</h2>
+    <p data-i18n="k3" class="tag">Events</p>
+    <h2 data-i18n="k29">Book clubs &amp; readings</h2>
     <div class="event-list reveal">
-      <div class="event-row"><span class="event-date">Oct 3</span><div><h3>Fiction Book Club</h3><p>Monthly discussion, 7:00pm — this month's pick: "The Wandering Hour"</p></div></div>
-      <div class="event-row"><span class="event-date">Oct 10</span><div><h3>Poetry Open Mic</h3><p>Bring your own or read a favorite — all welcome, 6:30pm</p></div></div>
-      <div class="event-row"><span class="event-date">Oct 18</span><div><h3>Author Talk &amp; Signing</h3><p>Local author reading from their new novel, 7:00pm</p></div></div>
+      <div class="event-row"><span data-i18n="k30" class="event-date">Oct 3</span><div><h3 data-i18n="k31">Fiction Book Club</h3><p data-i18n="k32">Monthly discussion, 7:00pm — this month's pick: "The Wandering Hour"</p></div></div>
+      <div class="event-row"><span data-i18n="k33" class="event-date">Oct 10</span><div><h3 data-i18n="k34">Poetry Open Mic</h3><p data-i18n="k35">Bring your own or read a favorite — all welcome, 6:30pm</p></div></div>
+      <div class="event-row"><span data-i18n="k36" class="event-date">Oct 18</span><div><h3 data-i18n="k37">Author Talk &amp; Signing</h3><p data-i18n="k38">Local author reading from their new novel, 7:00pm</p></div></div>
     </div>
   </div>
 </section>
 
 <section class="section section--dark">
   <div class="container">
-    <p class="tag tag--light">Reviews</p>
-    <h2 class="light">From our regulars</h2>
+    <p data-i18n="k39" class="tag tag--light">Reviews</p>
+    <h2 data-i18n="k40" class="light">From our regulars</h2>
     <div class="grid grid--3 reveal">
-      <blockquote class="quote"><p>"The staff picks shelf has never once let me down. They just get it."</p><cite>— Adaeze O.</cite></blockquote>
-      <blockquote class="quote"><p>"My favorite place to work remotely — quiet, warm, and the coffee is genuinely great."</p><cite>— Ben F.</cite></blockquote>
-      <blockquote class="quote"><p>"Book club here brought me some of my closest friends. Rare kind of place."</p><cite>— Linh T.</cite></blockquote>
+      <blockquote class="quote"><p data-i18n="k41">"The staff picks shelf has never once let me down. They just get it."</p><cite data-i18n="k42">— Adaeze O.</cite></blockquote>
+      <blockquote class="quote"><p data-i18n="k43">"My favorite place to work remotely — quiet, warm, and the coffee is genuinely great."</p><cite data-i18n="k44">— Ben F.</cite></blockquote>
+      <blockquote class="quote"><p data-i18n="k45">"Book club here brought me some of my closest friends. Rare kind of place."</p><cite data-i18n="k46">— Linh T.</cite></blockquote>
     </div>
   </div>
 </section>
@@ -116,18 +117,18 @@
 <section class="cta" id="visit">
   <div class="container cta__row">
     <div>
-      <h2>Come sit with a book</h2>
-      <p>Open daily. Sign up for our newsletter for event invites and new arrival lists.</p>
+      <h2 data-i18n="k47">Come sit with a book</h2>
+      <p data-i18n="k48">Open daily. Sign up for our newsletter for event invites and new arrival lists.</p>
       <ul class="info-list">
-        <li>📍 214 Willow Lane</li>
-        <li>🕘 Mon–Sun, 8:00am – 9:00pm</li>
+        <li data-i18n="k49">📍 214 Willow Lane</li>
+        <li data-i18n="k50">🕘 Mon–Sun, 8:00am – 9:00pm</li>
       </ul>
     </div>
     <form class="visit-form" id="visitForm">
-      <input type="text" placeholder="Your name" required>
-      <input type="email" placeholder="Email address" required>
-      <button type="submit" class="btn btn--primary">Join our newsletter</button>
-      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+      <input type="text" placeholder="Your name" data-i18n-placeholder="k55" required>
+      <input type="email" placeholder="Email address" data-i18n-placeholder="k56" required>
+      <button data-i18n="k51" type="submit" class="btn btn--primary">Join our newsletter</button>
+      <p data-i18n="k52" class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
     </form>
   </div>
 </section>
@@ -135,15 +136,15 @@
 <footer class="footer">
   <div class="container footer__row">
     <a href="#" class="logo">Chapter &amp; Verse</a>
-    <p>&copy; 2026 Chapter &amp; Verse. Template for demonstration purposes.</p>
+    <p data-i18n="k53">&copy; 2026 Chapter &amp; Verse. Template for demonstration purposes.</p>
     <div class="footer__links">
-      <a href="#books">Books</a>
-      <a href="#events">Events</a>
-      <a href="#visit">Visit</a>
+      <a data-i18n="k54" href="#books">Books</a>
+      <a data-i18n="k3" href="#events">Events</a>
+      <a data-i18n="k4" href="#visit">Visit</a>
     </div>
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js?v=2"></script>
 </body>
 </html>

@@ -187,3 +187,10 @@ html[lang="he"] { --font-head: 'Heebo', sans-serif; --font-body: 'Heebo', sans-s
 html[dir="rtl"] .hero__route, html[dir="rtl"] .marquee__track { direction: ltr; }
 html[dir="rtl"] .eyebrow, html[dir="rtl"] .tag { letter-spacing: 0; }
 html[dir="rtl"] #fareVal { unicode-bidi: isolate; }
+
+html[dir="rtl"] .logo { direction: ltr; unicode-bidi: isolate; }
+.lang-switch { transition: background .2s ease, color .3s ease; }
+@media (max-width: 480px) {
+  .lang-switch { padding: 5px 10px; font-size: .78rem; }
+  .nav__row { gap: 10px; }
+}

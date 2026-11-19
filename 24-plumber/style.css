@@ -107,3 +107,19 @@ h2.light { color: var(--white); }
 @media (max-width: 480px) {
   .grid--3 { grid-template-columns: 1fr; }
 }
+
+/* LANGUAGE SWITCH + RTL (Hebrew) */
+.lang-switch { flex-shrink: 0; background: none; color: inherit; border: 1.5px solid currentColor; border-radius: 999px; padding: 6px 14px; font: 600 .85rem 'Heebo', sans-serif; cursor: pointer; transition: background .2s ease; }
+.lang-switch:hover { background: rgba(128,128,128,.25); }
+html[lang="he"] { --font-head: 'Heebo', sans-serif; --font-body: 'Heebo', sans-serif; }
+html[lang="he"] body, html[lang="he"] button, html[lang="he"] input, html[lang="he"] select, html[lang="he"] textarea { font-family: 'Heebo', sans-serif; }
+html[lang="he"] h1, html[lang="he"] h2, html[lang="he"] h3, html[lang="he"] .logo { font-family: 'Heebo', sans-serif; }
+html[dir="rtl"] * { letter-spacing: 0 !important; }
+html[dir="rtl"] .marquee, html[dir="rtl"] .marquee__track { direction: ltr; }
+
+html[dir="rtl"] .logo { direction: ltr; unicode-bidi: isolate; }
+.lang-switch { transition: background .2s ease, color .3s ease; }
+@media (max-width: 480px) {
+  .lang-switch { padding: 5px 10px; font-size: .78rem; }
+  .nav__row { gap: 10px; }
+}

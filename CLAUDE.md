@@ -107,6 +107,18 @@ browser.
 | 29 | `29-florist` | Florist ("Petal & Stem") | Dusty rose/sage, botanical serif, blooming petals |
 | 30 | `30-it-support` | IT support ("ByteGuard IT Solutions") | Terminal black/green, monospace, live typing effect |
 
+## Language switch (EN / HE)
+
+Every template has an English/Hebrew toggle (`#langSwitch` in the nav). English
+is the markup itself; Hebrew lives in a `HE` dictionary at the bottom of each
+`script.js`, keyed by `data-i18n="kN"` attributes (`data-i18n-placeholder` for
+inputs). `setLang()` swaps text, sets `<html lang dir>` (RTL for Hebrew), and
+remembers the choice in `localStorage`. RTL tweaks and the Hebrew font
+(Heebo, plus Frank Ruhl Libre for serif templates) are at the bottom of each
+`style.css`. Elements that scripts hold references to (counters, ids) are
+translated at the inner-span level so the references stay valid. New templates
+should include the switch too.
+
 ## Adding a new template
 
 1. Create `NN-profession-name/` (next number in sequence).

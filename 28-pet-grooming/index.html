@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fluff &amp; Fold — Pet Grooming Salon</title>
+<title data-i18n="title">Fluff &amp; Fold — Pet Grooming Salon</title>
 <meta name="description" content="Fluff & Fold — full-service pet grooming: baths, cuts, nail trims, and de-shedding treatments.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500;600;700&family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500;600;700&family=Comfortaa:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
@@ -19,76 +19,77 @@
   <div class="container nav__row">
     <a href="#" class="logo">🛁 Fluff &amp; Fold</a>
     <nav class="nav__links" id="navLinks">
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#book">Book</a>
+      <a data-i18n="k1" href="#services">Services</a>
+      <a data-i18n="k2" href="#gallery">Gallery</a>
+      <a data-i18n="k3" href="#pricing">Pricing</a>
+      <a data-i18n="k4" href="#book">Book</a>
     </nav>
-    <a href="#book" class="btn btn--primary nav__cta">Book grooming</a>
+    <a data-i18n="k5" href="#book" class="btn btn--primary nav__cta">Book grooming</a>
+    <button type="button" class="lang-switch" id="langSwitch" aria-label="Switch language">עברית</button>
     <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
 <section class="hero">
   <div class="container hero__content">
-    <p class="eyebrow">Gentle, Stress-Free Pet Grooming</p>
-    <h1>Pampering for<br>your <span>best friend</span></h1>
-    <p class="hero__sub">From a quick bath to a full breed-standard cut, our groomers treat every pet like their own — patient, gentle, and genuinely fear-free.</p>
+    <p data-i18n="k6" class="eyebrow">Gentle, Stress-Free Pet Grooming</p>
+    <h1 data-i18n="k7">Pampering for<br>your <span>best friend</span></h1>
+    <p data-i18n="k8" class="hero__sub">From a quick bath to a full breed-standard cut, our groomers treat every pet like their own — patient, gentle, and genuinely fear-free.</p>
     <div class="hero__actions">
-      <a href="#book" class="btn btn--primary btn--lg">Book an appointment</a>
-      <a href="#services" class="btn btn--ghost btn--lg">Our services</a>
+      <a data-i18n="k9" href="#book" class="btn btn--primary btn--lg">Book an appointment</a>
+      <a data-i18n="k10" href="#services" class="btn btn--ghost btn--lg">Our services</a>
     </div>
   </div>
 </section>
 
 <section class="section" id="services">
   <div class="container">
-    <p class="tag">Services</p>
-    <h2>Full-service grooming menu</h2>
+    <p data-i18n="k1" class="tag">Services</p>
+    <h2 data-i18n="k11">Full-service grooming menu</h2>
     <div class="grid grid--3 reveal">
-      <article class="card"><div class="card__icon">🛁</div><h3>Bath &amp; Brush</h3><p>Shampoo, blow-dry, and brush-out for a fresh, soft coat.</p></article>
-      <article class="card"><div class="card__icon">✂️</div><h3>Full Groom</h3><p>Breed-standard or custom cuts, styled to your preference.</p></article>
-      <article class="card"><div class="card__icon">💅</div><h3>Nail Trim</h3><p>Quick, gentle nail trims — even for nail-shy pets.</p></article>
-      <article class="card"><div class="card__icon">🐾</div><h3>De-Shedding Treatment</h3><p>Reduces shedding significantly for heavy-coated breeds.</p></article>
-      <article class="card"><div class="card__icon">🐶</div><h3>Puppy's First Groom</h3><p>A slow, gentle introduction to the grooming experience.</p></article>
-      <article class="card"><div class="card__icon">🐱</div><h3>Cat Grooming</h3><p>Specialized handling and calming techniques for cats.</p></article>
+      <article class="card"><div class="card__icon">🛁</div><h3 data-i18n="k12">Bath &amp; Brush</h3><p data-i18n="k13">Shampoo, blow-dry, and brush-out for a fresh, soft coat.</p></article>
+      <article class="card"><div class="card__icon">✂️</div><h3 data-i18n="k14">Full Groom</h3><p data-i18n="k15">Breed-standard or custom cuts, styled to your preference.</p></article>
+      <article class="card"><div class="card__icon">💅</div><h3 data-i18n="k16">Nail Trim</h3><p data-i18n="k17">Quick, gentle nail trims — even for nail-shy pets.</p></article>
+      <article class="card"><div class="card__icon">🐾</div><h3 data-i18n="k18">De-Shedding Treatment</h3><p data-i18n="k19">Reduces shedding significantly for heavy-coated breeds.</p></article>
+      <article class="card"><div class="card__icon">🐶</div><h3 data-i18n="k20">Puppy's First Groom</h3><p data-i18n="k21">A slow, gentle introduction to the grooming experience.</p></article>
+      <article class="card"><div class="card__icon">🐱</div><h3 data-i18n="k22">Cat Grooming</h3><p data-i18n="k23">Specialized handling and calming techniques for cats.</p></article>
     </div>
   </div>
 </section>
 
 <section class="section section--lilac" id="gallery">
   <div class="container">
-    <p class="tag tag--dark">Transformations</p>
-    <h2>Fresh cuts we're proud of</h2>
+    <p data-i18n="k24" class="tag tag--dark">Transformations</p>
+    <h2 data-i18n="k25">Fresh cuts we're proud of</h2>
     <div class="photo-grid reveal">
-      <div class="photo p1"><span>Golden Retriever Trim</span></div>
-      <div class="photo p2"><span>Poodle Full Groom</span></div>
-      <div class="photo p3"><span>Persian Cat Groom</span></div>
-      <div class="photo p4"><span>Shih Tzu Puppy Cut</span></div>
+      <div data-i18n="k26" class="photo p1"><span>Golden Retriever Trim</span></div>
+      <div data-i18n="k27" class="photo p2"><span>Poodle Full Groom</span></div>
+      <div data-i18n="k28" class="photo p3"><span>Persian Cat Groom</span></div>
+      <div data-i18n="k29" class="photo p4"><span>Shih Tzu Puppy Cut</span></div>
     </div>
   </div>
 </section>
 
 <section class="section" id="pricing">
   <div class="container">
-    <p class="tag">Pricing</p>
-    <h2>Priced by size</h2>
+    <p data-i18n="k3" class="tag">Pricing</p>
+    <h2 data-i18n="k30">Priced by size</h2>
     <div class="grid grid--3 reveal">
       <article class="plan">
-        <h3>Small (under 20 lbs)</h3>
-        <p class="plan__price">from $45</p>
-        <ul><li>Bath &amp; brush</li><li>Nail trim included</li><li>Ear cleaning</li></ul>
+        <h3 data-i18n="k31">Small (under 20 lbs)</h3>
+        <p data-i18n="k32" class="plan__price">from $45</p>
+        <ul><li data-i18n="k33">Bath &amp; brush</li><li data-i18n="k34">Nail trim included</li><li data-i18n="k35">Ear cleaning</li></ul>
       </article>
       <article class="plan plan--featured">
-        <span class="plan__badge">Most Common</span>
-        <h3>Medium (20–50 lbs)</h3>
-        <p class="plan__price">from $65</p>
-        <ul><li>Full groom</li><li>Nail trim &amp; ear cleaning</li><li>De-shedding add-on available</li></ul>
+        <span data-i18n="k36" class="plan__badge">Most Common</span>
+        <h3 data-i18n="k37">Medium (20–50 lbs)</h3>
+        <p data-i18n="k38" class="plan__price">from $65</p>
+        <ul><li data-i18n="k39">Full groom</li><li data-i18n="k40">Nail trim &amp; ear cleaning</li><li data-i18n="k41">De-shedding add-on available</li></ul>
       </article>
       <article class="plan">
-        <h3>Large (50+ lbs)</h3>
-        <p class="plan__price">from $85</p>
-        <ul><li>Full groom</li><li>Nail trim &amp; ear cleaning</li><li>Extra time for thick coats</li></ul>
+        <h3 data-i18n="k42">Large (50+ lbs)</h3>
+        <p data-i18n="k43" class="plan__price">from $85</p>
+        <ul><li data-i18n="k39">Full groom</li><li data-i18n="k40">Nail trim &amp; ear cleaning</li><li data-i18n="k44">Extra time for thick coats</li></ul>
       </article>
     </div>
   </div>
@@ -96,12 +97,12 @@
 
 <section class="section section--lilac">
   <div class="container">
-    <p class="tag tag--dark center-tag">Reviews</p>
-    <h2 class="center">Happy pets, happy parents</h2>
+    <p data-i18n="k45" class="tag tag--dark center-tag">Reviews</p>
+    <h2 data-i18n="k46" class="center">Happy pets, happy parents</h2>
     <div class="grid grid--3 reveal">
-      <blockquote class="quote"><p>"My anxious rescue actually relaxes during her appointments now. That says everything."</p><cite>— Jenna &amp; Coco 🐕</cite></blockquote>
-      <blockquote class="quote"><p>"Best poodle cut we've ever gotten, and our old groomer was expensive downtown."</p><cite>— Marcus P.</cite></blockquote>
-      <blockquote class="quote"><p>"They're so patient with my cat, who genuinely hates everyone. Miracle workers."</p><cite>— Teresa L.</cite></blockquote>
+      <blockquote class="quote"><p data-i18n="k47">"My anxious rescue actually relaxes during her appointments now. That says everything."</p><cite data-i18n="k48">— Jenna &amp; Coco 🐕</cite></blockquote>
+      <blockquote class="quote"><p data-i18n="k49">"Best poodle cut we've ever gotten, and our old groomer was expensive downtown."</p><cite data-i18n="k50">— Marcus P.</cite></blockquote>
+      <blockquote class="quote"><p data-i18n="k51">"They're so patient with my cat, who genuinely hates everyone. Miracle workers."</p><cite data-i18n="k52">— Teresa L.</cite></blockquote>
     </div>
   </div>
 </section>
@@ -109,21 +110,21 @@
 <section class="cta" id="book">
   <div class="container cta__row">
     <div>
-      <h2>Book your pet's spa day</h2>
-      <p>Tell us about your pet and preferred time — we'll confirm shortly.</p>
+      <h2 data-i18n="k53">Book your pet's spa day</h2>
+      <p data-i18n="k54">Tell us about your pet and preferred time — we'll confirm shortly.</p>
     </div>
     <form class="book-form" id="bookForm">
-      <input type="text" placeholder="Your name" required>
-      <input type="text" placeholder="Pet's name &amp; breed" required>
+      <input type="text" placeholder="Your name" data-i18n-placeholder="k61" required>
+      <input type="text" placeholder="Pet's name &amp; breed" data-i18n-placeholder="k62" required>
       <select required>
-        <option value="" disabled selected>Service needed</option>
-        <option>Bath &amp; brush</option>
-        <option>Full groom</option>
-        <option>Nail trim</option>
-        <option>De-shedding treatment</option>
+        <option data-i18n="k55" value="" disabled selected>Service needed</option>
+        <option data-i18n="k33">Bath &amp; brush</option>
+        <option data-i18n="k39">Full groom</option>
+        <option data-i18n="k56">Nail trim</option>
+        <option data-i18n="k57">De-shedding treatment</option>
       </select>
-      <button type="submit" class="btn btn--primary">Book appointment</button>
-      <p class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
+      <button data-i18n="k58" type="submit" class="btn btn--primary">Book appointment</button>
+      <p data-i18n="k59" class="form-note" id="formNote" hidden>Demo only — this template has no backend. Connect this form for your client.</p>
     </form>
   </div>
 </section>
@@ -131,15 +132,15 @@
 <footer class="footer">
   <div class="container footer__row">
     <a href="#" class="logo">🛁 Fluff &amp; Fold</a>
-    <p>&copy; 2026 Fluff &amp; Fold. Template for demonstration purposes.</p>
+    <p data-i18n="k60">&copy; 2026 Fluff &amp; Fold. Template for demonstration purposes.</p>
     <div class="footer__links">
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#book">Book</a>
+      <a data-i18n="k1" href="#services">Services</a>
+      <a data-i18n="k2" href="#gallery">Gallery</a>
+      <a data-i18n="k4" href="#book">Book</a>
     </div>
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js?v=2"></script>
 </body>
 </html>

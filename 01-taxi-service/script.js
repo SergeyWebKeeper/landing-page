@@ -179,3 +179,15 @@ langSwitch.addEventListener('click', () => {
 let savedLang = null;
 try { savedLang = localStorage.getItem('lang'); } catch (e) {}
 if (savedLang === 'he') setLang('he');
+
+// Keep the language button readable on every nav theme
+function syncLangColor() {
+  const burgerOn = getComputedStyle(burger).display !== 'none';
+  const ref = burgerOn ? burger.querySelector('span') : document.querySelector('.nav__links a');
+  if (!ref) return;
+  langSwitch.style.color = burgerOn ? getComputedStyle(ref).backgroundColor : getComputedStyle(ref).color;
+}
+window.addEventListener('scroll', syncLangColor, { passive: true });
+window.addEventListener('resize', syncLangColor);
+document.addEventListener('langchange', syncLangColor);
+syncLangColor();
