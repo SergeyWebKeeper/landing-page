@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Landing Page Template Gallery</title>
+<title data-i18n="title">Landing Page Template Gallery</title>
 <meta name="description" content="A portfolio of thirty distinct landing page templates for small businesses — pick the one closest to your brand.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
 <header class="topbar">
   <div class="container topbar__row">
     <span class="brand">Template Studio</span>
-    <span class="count">30 templates</span>
+    <div class="topbar__right">
+      <span class="count" data-i18n="g111">30 templates</span>
+      <button type="button" class="lang-switch" id="langSwitch" aria-label="Switch language">עברית</button>
+    </div>
   </div>
 </header>
 
 <section class="intro">
   <div class="container">
-    <p class="eyebrow">A landing page template for every business</p>
-    <h1>Pick the style that feels like <em>you</em></h1>
-    <p class="intro__sub">Thirty fully designed, ready-to-launch templates — each with its own colors, typography, and motion. Browse, open any one, and tell us which fits. We'll customize it with your brand and content.</p>
+    <p class="eyebrow" data-i18n="g108">A landing page template for every business</p>
+    <h1 data-i18n="g109">Pick the style that feels like <em>you</em></h1>
+    <p class="intro__sub" data-i18n="g110">Thirty fully designed, ready-to-launch templates — each with its own colors, typography, and motion. Browse, open any one, and tell us which fits. We'll customize it with your brand and content.</p>
   </div>
 </section>
 
@@ -34,9 +37,9 @@
         <span class="swatch__label">SwiftRide</span>
       </div>
       <div class="card__body">
-        <h2>Taxi &amp; Ride Service</h2>
-        <p>Bold yellow &amp; black, animated route line, live fare estimator.</p>
-        <div class="chips"><span>Bold</span><span>Energetic</span></div>
+        <h2 data-i18n="g1">Taxi &amp; Ride Service</h2>
+        <p data-i18n="g31">Bold yellow &amp; black, animated route line, live fare estimator.</p>
+        <div class="chips"><span data-i18n="g61">Bold</span><span data-i18n="g62">Energetic</span></div>
       </div>
     </a>
 
@@ -45,9 +48,9 @@
         <span class="swatch__label">Bella Vista</span>
       </div>
       <div class="card__body">
-        <h2>Restaurant</h2>
-        <p>Dark maroon &amp; gold, elegant serif type, parallax hero, menu tabs.</p>
-        <div class="chips"><span>Elegant</span><span>Warm</span></div>
+        <h2 data-i18n="g2">Restaurant</h2>
+        <p data-i18n="g32">Dark maroon &amp; gold, elegant serif type, parallax hero, menu tabs.</p>
+        <div class="chips"><span data-i18n="g63">Elegant</span><span data-i18n="g64">Warm</span></div>
       </div>
     </a>
 
@@ -56,9 +59,9 @@
         <span class="swatch__label">Meridian Wealth</span>
       </div>
       <div class="card__body">
-        <h2>Financial Advisor</h2>
-        <p>Navy &amp; gold, animated growth chart, trust-building process timeline.</p>
-        <div class="chips"><span>Corporate</span><span>Trustworthy</span></div>
+        <h2 data-i18n="g3">Financial Advisor</h2>
+        <p data-i18n="g33">Navy &amp; gold, animated growth chart, trust-building process timeline.</p>
+        <div class="chips"><span data-i18n="g65">Corporate</span><span data-i18n="g66">Trustworthy</span></div>
       </div>
     </a>
 
@@ -67,9 +70,9 @@
         <span class="swatch__label">Apex Performance</span>
       </div>
       <div class="card__body">
-        <h2>Sport &amp; Personal Coach</h2>
-        <p>Dark theme, neon orange accents, diagonal cuts, animated progress bars.</p>
-        <div class="chips"><span>High-energy</span><span>Bold</span></div>
+        <h2 data-i18n="g4">Sport &amp; Personal Coach</h2>
+        <p data-i18n="g34">Dark theme, neon orange accents, diagonal cuts, animated progress bars.</p>
+        <div class="chips"><span data-i18n="g67">High-energy</span><span data-i18n="g61">Bold</span></div>
       </div>
     </a>
 
@@ -78,9 +81,9 @@
         <span class="swatch__label">Bright Smile</span>
       </div>
       <div class="card__body">
-        <h2>Dental Clinic</h2>
-        <p>Mint &amp; white, rounded friendly type, floating blobs, FAQ accordion.</p>
-        <div class="chips"><span>Friendly</span><span>Clean</span></div>
+        <h2 data-i18n="g5">Dental Clinic</h2>
+        <p data-i18n="g35">Mint &amp; white, rounded friendly type, floating blobs, FAQ accordion.</p>
+        <div class="chips"><span data-i18n="g68">Friendly</span><span data-i18n="g69">Clean</span></div>
       </div>
     </a>
 
@@ -89,9 +92,9 @@
         <span class="swatch__label">Lens &amp; Light</span>
       </div>
       <div class="card__body">
-        <h2>Photographer</h2>
-        <p>Dark editorial layout, oversized serif type, masonry portfolio grid.</p>
-        <div class="chips"><span>Editorial</span><span>Minimal</span></div>
+        <h2 data-i18n="g6">Photographer</h2>
+        <p data-i18n="g36">Dark editorial layout, oversized serif type, masonry portfolio grid.</p>
+        <div class="chips"><span data-i18n="g70">Editorial</span><span data-i18n="g71">Minimal</span></div>
       </div>
     </a>
 
@@ -100,9 +103,9 @@
         <span class="swatch__label">The Gentlemen's Cut</span>
       </div>
       <div class="card__body">
-        <h2>Barbershop</h2>
-        <p>Black &amp; gold vintage styling, rotating barber pole, price list menu.</p>
-        <div class="chips"><span>Classic</span><span>Vintage</span></div>
+        <h2 data-i18n="g7">Barbershop</h2>
+        <p data-i18n="g37">Black &amp; gold vintage styling, rotating barber pole, price list menu.</p>
+        <div class="chips"><span data-i18n="g72">Classic</span><span data-i18n="g73">Vintage</span></div>
       </div>
     </a>
 
@@ -111,9 +114,9 @@
         <span class="swatch__label">Sterling &amp; Associates</span>
       </div>
       <div class="card__body">
-        <h2>Law Firm</h2>
-        <p>Monochrome &amp; burgundy, formal serif type, symmetrical layout.</p>
-        <div class="chips"><span>Formal</span><span>Minimal motion</span></div>
+        <h2 data-i18n="g8">Law Firm</h2>
+        <p data-i18n="g38">Monochrome &amp; burgundy, formal serif type, symmetrical layout.</p>
+        <div class="chips"><span data-i18n="g74">Formal</span><span data-i18n="g75">Minimal motion</span></div>
       </div>
     </a>
 
@@ -122,9 +125,9 @@
         <span class="swatch__label">Prestige Properties</span>
       </div>
       <div class="card__body">
-        <h2>Real Estate Agency</h2>
-        <p>Black &amp; gold glassmorphism, frosted search bar, luxury listings grid.</p>
-        <div class="chips"><span>Luxury</span><span>Glass UI</span></div>
+        <h2 data-i18n="g9">Real Estate Agency</h2>
+        <p data-i18n="g39">Black &amp; gold glassmorphism, frosted search bar, luxury listings grid.</p>
+        <div class="chips"><span data-i18n="g76">Luxury</span><span data-i18n="g77">Glass UI</span></div>
       </div>
     </a>
 
@@ -133,9 +136,9 @@
         <span class="swatch__label">Serene Flow</span>
       </div>
       <div class="card__body">
-        <h2>Yoga Studio</h2>
-        <p>Earthy tones, organic morphing blobs, a slow breathing animation.</p>
-        <div class="chips"><span>Calm</span><span>Organic</span></div>
+        <h2 data-i18n="g10">Yoga Studio</h2>
+        <p data-i18n="g40">Earthy tones, organic morphing blobs, a slow breathing animation.</p>
+        <div class="chips"><span data-i18n="g78">Calm</span><span data-i18n="g79">Organic</span></div>
       </div>
     </a>
 
@@ -144,9 +147,9 @@
         <span class="swatch__label">Evermore Weddings</span>
       </div>
       <div class="card__body">
-        <h2>Wedding Planner</h2>
-        <p>Blush &amp; rose, script accents, drifting petals, love-note carousel.</p>
-        <div class="chips"><span>Romantic</span><span>Soft</span></div>
+        <h2 data-i18n="g11">Wedding Planner</h2>
+        <p data-i18n="g41">Blush &amp; rose, script accents, drifting petals, love-note carousel.</p>
+        <div class="chips"><span data-i18n="g80">Romantic</span><span data-i18n="g81">Soft</span></div>
       </div>
     </a>
 
@@ -155,9 +158,9 @@
         <span class="swatch__label">Torque &amp; Tow</span>
       </div>
       <div class="card__body">
-        <h2>Auto Repair Shop</h2>
-        <p>Steel &amp; safety orange, hazard stripes, industrial condensed type.</p>
-        <div class="chips"><span>Industrial</span><span>Bold</span></div>
+        <h2 data-i18n="g12">Auto Repair Shop</h2>
+        <p data-i18n="g42">Steel &amp; safety orange, hazard stripes, industrial condensed type.</p>
+        <div class="chips"><span data-i18n="g82">Industrial</span><span data-i18n="g61">Bold</span></div>
       </div>
     </a>
 
@@ -166,9 +169,9 @@
         <span class="swatch__label">Paws &amp; Care</span>
       </div>
       <div class="card__body">
-        <h2>Veterinary Clinic</h2>
-        <p>Soft sky blue &amp; sunny yellow, floating paw prints, friendly rounded type.</p>
-        <div class="chips"><span>Friendly</span><span>Caring</span></div>
+        <h2 data-i18n="g13">Veterinary Clinic</h2>
+        <p data-i18n="g43">Soft sky blue &amp; sunny yellow, floating paw prints, friendly rounded type.</p>
+        <div class="chips"><span data-i18n="g68">Friendly</span><span data-i18n="g83">Caring</span></div>
       </div>
     </a>
 
@@ -177,9 +180,9 @@
         <span class="swatch__label">Sweet Crumb</span>
       </div>
       <div class="card__body">
-        <h2>Bakery &amp; Cafe</h2>
-        <p>Pastel pink &amp; cream, hand-drawn script, tilted polaroid menu cards.</p>
-        <div class="chips"><span>Playful</span><span>Sweet</span></div>
+        <h2 data-i18n="g14">Bakery &amp; Cafe</h2>
+        <p data-i18n="g44">Pastel pink &amp; cream, hand-drawn script, tilted polaroid menu cards.</p>
+        <div class="chips"><span data-i18n="g84">Playful</span><span data-i18n="g85">Sweet</span></div>
       </div>
     </a>
 
@@ -188,9 +191,9 @@
         <span class="swatch__label">CrystalClean</span>
       </div>
       <div class="card__body">
-        <h2>Cleaning Service</h2>
-        <p>Fresh teal &amp; white, crisp minimal type, live price estimator.</p>
-        <div class="chips"><span>Crisp</span><span>Minimal</span></div>
+        <h2 data-i18n="g15">Cleaning Service</h2>
+        <p data-i18n="g45">Fresh teal &amp; white, crisp minimal type, live price estimator.</p>
+        <div class="chips"><span data-i18n="g86">Crisp</span><span data-i18n="g71">Minimal</span></div>
       </div>
     </a>
 
@@ -199,9 +202,9 @@
         <span class="swatch__label">Nova Studio</span>
       </div>
       <div class="card__body">
-        <h2>Design Agency</h2>
-        <p>Dark UI, animated gradient mesh, bold display type, bento grid.</p>
-        <div class="chips"><span>Vibrant</span><span>Creative</span></div>
+        <h2 data-i18n="g16">Design Agency</h2>
+        <p data-i18n="g46">Dark UI, animated gradient mesh, bold display type, bento grid.</p>
+        <div class="chips"><span data-i18n="g87">Vibrant</span><span data-i18n="g88">Creative</span></div>
       </div>
     </a>
 
@@ -210,9 +213,9 @@
         <span class="swatch__label">GreenScape</span>
       </div>
       <div class="card__body">
-        <h2>Landscaping</h2>
-        <p>Forest green &amp; sand tones, natural serif type, before/after gallery.</p>
-        <div class="chips"><span>Natural</span><span>Earthy</span></div>
+        <h2 data-i18n="g17">Landscaping</h2>
+        <p data-i18n="g47">Forest green &amp; sand tones, natural serif type, before/after gallery.</p>
+        <div class="chips"><span data-i18n="g89">Natural</span><span data-i18n="g90">Earthy</span></div>
       </div>
     </a>
 
@@ -221,9 +224,9 @@
         <span class="swatch__label">Crescendo</span>
       </div>
       <div class="card__body">
-        <h2>Music School</h2>
-        <p>Purple &amp; gold, bold display serif, animated equalizer bars.</p>
-        <div class="chips"><span>Artistic</span><span>Expressive</span></div>
+        <h2 data-i18n="g18">Music School</h2>
+        <p data-i18n="g48">Purple &amp; gold, bold display serif, animated equalizer bars.</p>
+        <div class="chips"><span data-i18n="g91">Artistic</span><span data-i18n="g92">Expressive</span></div>
       </div>
     </a>
 
@@ -232,9 +235,9 @@
         <span class="swatch__label">Black Ravens</span>
       </div>
       <div class="card__body">
-        <h2>Tattoo Studio</h2>
-        <p>Black &amp; blood red, gothic blackletter logo, flickering neon hero text.</p>
-        <div class="chips"><span>Edgy</span><span>Gothic</span></div>
+        <h2 data-i18n="g19">Tattoo Studio</h2>
+        <p data-i18n="g49">Black &amp; blood red, gothic blackletter logo, flickering neon hero text.</p>
+        <div class="chips"><span data-i18n="g93">Edgy</span><span data-i18n="g94">Gothic</span></div>
       </div>
     </a>
 
@@ -243,9 +246,9 @@
         <span class="swatch__label">Little Sprouts</span>
       </div>
       <div class="card__body">
-        <h2>Daycare / Childcare</h2>
-        <p>Rainbow pastels, bubbly display font, drifting balloons, bouncy motion.</p>
-        <div class="chips"><span>Playful</span><span>Bright</span></div>
+        <h2 data-i18n="g20">Daycare / Childcare</h2>
+        <p data-i18n="g50">Rainbow pastels, bubbly display font, drifting balloons, bouncy motion.</p>
+        <div class="chips"><span data-i18n="g84">Playful</span><span data-i18n="g95">Bright</span></div>
       </div>
     </a>
 
@@ -254,9 +257,9 @@
         <span class="swatch__label">Chapter &amp; Verse</span>
       </div>
       <div class="card__body">
-        <h2>Bookstore &amp; Cafe</h2>
-        <p>Warm wood &amp; cream, literary serif, 3D page-flip staff picks.</p>
-        <div class="chips"><span>Cozy</span><span>Literary</span></div>
+        <h2 data-i18n="g21">Bookstore &amp; Cafe</h2>
+        <p data-i18n="g51">Warm wood &amp; cream, literary serif, 3D page-flip staff picks.</p>
+        <div class="chips"><span data-i18n="g96">Cozy</span><span data-i18n="g97">Literary</span></div>
       </div>
     </a>
 
@@ -265,9 +268,9 @@
         <span class="swatch__label">Lumen Spa</span>
       </div>
       <div class="card__body">
-        <h2>Spa &amp; Wellness</h2>
-        <p>Lavender &amp; sage, minimal caps type, slow-pulsing glow orb.</p>
-        <div class="chips"><span>Tranquil</span><span>Minimal</span></div>
+        <h2 data-i18n="g22">Spa &amp; Wellness</h2>
+        <p data-i18n="g52">Lavender &amp; sage, minimal caps type, slow-pulsing glow orb.</p>
+        <div class="chips"><span data-i18n="g98">Tranquil</span><span data-i18n="g71">Minimal</span></div>
       </div>
     </a>
 
@@ -276,9 +279,9 @@
         <span class="swatch__label">Volt &amp; Watt</span>
       </div>
       <div class="card__body">
-        <h2>Electrician</h2>
-        <p>Black &amp; electric volt-yellow, animated circuit traces, technical type.</p>
-        <div class="chips"><span>Technical</span><span>High-contrast</span></div>
+        <h2 data-i18n="g23">Electrician</h2>
+        <p data-i18n="g53">Black &amp; electric volt-yellow, animated circuit traces, technical type.</p>
+        <div class="chips"><span data-i18n="g99">Technical</span><span data-i18n="g100">High-contrast</span></div>
       </div>
     </a>
 
@@ -287,9 +290,9 @@
         <span class="swatch__label">ClearFlow</span>
       </div>
       <div class="card__body">
-        <h2>Plumbing Service</h2>
-        <p>Deep blue &amp; white, animated wave motion, clean and trustworthy.</p>
-        <div class="chips"><span>Clean</span><span>Reliable</span></div>
+        <h2 data-i18n="g24">Plumbing Service</h2>
+        <p data-i18n="g54">Deep blue &amp; white, animated wave motion, clean and trustworthy.</p>
+        <div class="chips"><span data-i18n="g69">Clean</span><span data-i18n="g101">Reliable</span></div>
       </div>
     </a>
 
@@ -298,9 +301,9 @@
         <span class="swatch__label">Ironclad Brewing</span>
       </div>
       <div class="card__body">
-        <h2>Craft Brewery</h2>
-        <p>Amber &amp; copper, industrial slab serif, rising bubble animation.</p>
-        <div class="chips"><span>Industrial</span><span>Artisan</span></div>
+        <h2 data-i18n="g25">Craft Brewery</h2>
+        <p data-i18n="g55">Amber &amp; copper, industrial slab serif, rising bubble animation.</p>
+        <div class="chips"><span data-i18n="g82">Industrial</span><span data-i18n="g102">Artisan</span></div>
       </div>
     </a>
 
@@ -309,9 +312,9 @@
         <span class="swatch__label">Atelier Home</span>
       </div>
       <div class="card__body">
-        <h2>Interior Design Studio</h2>
-        <p>Beige &amp; greige neutrals, minimalist type, drag before/after slider.</p>
-        <div class="chips"><span>Minimalist</span><span>Elegant</span></div>
+        <h2 data-i18n="g26">Interior Design Studio</h2>
+        <p data-i18n="g56">Beige &amp; greige neutrals, minimalist type, drag before/after slider.</p>
+        <div class="chips"><span data-i18n="g103">Minimalist</span><span data-i18n="g63">Elegant</span></div>
       </div>
     </a>
 
@@ -320,9 +323,9 @@
         <span class="swatch__label">GreenLight</span>
       </div>
       <div class="card__body">
-        <h2>Driving School</h2>
-        <p>Road black &amp; lane yellow, animated dashed lane-line hero.</p>
-        <div class="chips"><span>Bold</span><span>Confident</span></div>
+        <h2 data-i18n="g27">Driving School</h2>
+        <p data-i18n="g57">Road black &amp; lane yellow, animated dashed lane-line hero.</p>
+        <div class="chips"><span data-i18n="g61">Bold</span><span data-i18n="g104">Confident</span></div>
       </div>
     </a>
 
@@ -331,9 +334,9 @@
         <span class="swatch__label">Fluff &amp; Fold</span>
       </div>
       <div class="card__body">
-        <h2>Pet Grooming</h2>
-        <p>Lilac &amp; pink pastel, bubbly type, floating soap-bubble motion.</p>
-        <div class="chips"><span>Playful</span><span>Sweet</span></div>
+        <h2 data-i18n="g28">Pet Grooming</h2>
+        <p data-i18n="g58">Lilac &amp; pink pastel, bubbly type, floating soap-bubble motion.</p>
+        <div class="chips"><span data-i18n="g84">Playful</span><span data-i18n="g85">Sweet</span></div>
       </div>
     </a>
 
@@ -342,9 +345,9 @@
         <span class="swatch__label">Petal &amp; Stem</span>
       </div>
       <div class="card__body">
-        <h2>Florist</h2>
-        <p>Dusty rose &amp; sage, botanical serif, blooming petal animation.</p>
-        <div class="chips"><span>Delicate</span><span>Botanical</span></div>
+        <h2 data-i18n="g29">Florist</h2>
+        <p data-i18n="g59">Dusty rose &amp; sage, botanical serif, blooming petal animation.</p>
+        <div class="chips"><span data-i18n="g105">Delicate</span><span data-i18n="g106">Botanical</span></div>
       </div>
     </a>
 
@@ -353,9 +356,9 @@
         <span class="swatch__label">ByteGuard</span>
       </div>
       <div class="card__body">
-        <h2>IT Support</h2>
-        <p>Terminal black &amp; green, full monospace type, live typing animation.</p>
-        <div class="chips"><span>Technical</span><span>Sharp</span></div>
+        <h2 data-i18n="g30">IT Support</h2>
+        <p data-i18n="g60">Terminal black &amp; green, full monospace type, live typing animation.</p>
+        <div class="chips"><span data-i18n="g99">Technical</span><span data-i18n="g107">Sharp</span></div>
       </div>
     </a>
 
@@ -364,10 +367,10 @@
 
 <footer class="footer">
   <div class="container">
-    <p>&copy; 2026 Template Studio. Ten templates, one portfolio — pick yours and let's build.</p>
+    <p data-i18n="g112">&copy; 2026 Template Studio. Thirty templates, one portfolio — pick yours and let's build.</p>
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js?v=2"></script>
 </body>
 </html>

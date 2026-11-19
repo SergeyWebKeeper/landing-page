@@ -81,3 +81,13 @@ h1, h2 { font-family: var(--font-head); line-height: 1.15; }
 @media (max-width: 640px) {
   .gallery__grid { grid-template-columns: 1fr; }
 }
+
+/* LANGUAGE SWITCH + RTL (Hebrew) */
+.topbar__right { display: flex; align-items: center; gap: 12px; }
+.lang-switch { flex-shrink: 0; background: none; color: var(--ink); border: 1.5px solid currentColor; border-radius: 999px; padding: 6px 14px; font: 600 .85rem 'Heebo', sans-serif; cursor: pointer; transition: background .2s ease; }
+.lang-switch:hover { background: rgba(128,128,128,.2); }
+html[lang="he"] { --font-head: 'Frank Ruhl Libre', 'Heebo', serif; --font-body: 'Heebo', sans-serif; }
+html[lang="he"] body, html[lang="he"] button { font-family: 'Heebo', sans-serif; }
+html[lang="he"] h1, html[lang="he"] h2 { font-family: 'Frank Ruhl Libre', 'Heebo', serif; }
+html[dir="rtl"] * { letter-spacing: 0 !important; }
+html[dir="rtl"] .swatch__label, html[dir="rtl"] .brand { direction: ltr; unicode-bidi: isolate; }
